@@ -37,12 +37,19 @@ class OpenRouter:
         self.key = key
         self.model = model
 
-    def complete(self, messages, tool_choice, events):
+    def complete(self, messages, tool_choice, events, *, tools=None, response_format=None,
+                 max_tokens=256, reasoning=None):
         body = {
             "model": self.model, "messages": messages, "temperature": 0,
-            "max_tokens": 256, "tools": [SEARCH], "tool_choice": tool_choice,
-            "parallel_tool_calls": False,
+            "max_tokens": max_tokens,
         }
+        if tools != []:
+            body.update(tools=[SEARCH] if tools is None else tools, tool_choice=tool_choice,
+                        parallel_tool_calls=False)
+        if response_format is not None:
+            body["response_format"] = response_format
+        if reasoning is not None:
+            body["reasoning"] = reasoning
         request = Request(
             "https://openrouter.ai/api/v1/chat/completions",
             json.dumps(body).encode(),
@@ -55,9 +62,21 @@ class OpenRouter:
                     payload = json.load(response)
             except HTTPError as exc:
                 message = f"OpenRouter HTTP {exc.code}"
+                if exc.code in (402, 429):
+                    try:
+                        error = json.load(exc).get("error", {})
+                    except (ValueError, OSError):
+                        error = {}
+                    detail = error.get("message", "")
+                    if detail.startswith("Prompt tokens limit exceeded"):
+                        message += ": prompt token limit exceeded"
+                    elif detail.startswith(("This request requires more credits", "Insufficient credits")):
+                        message += ": insufficient credits for the request"
+                    elif "free-models-per-day" in detail:
+                        message += ": free-models-per-day"
                 events.append({"event": "model_error", "error": message,
                                "elapsed_ms": (perf_counter() - started) * 1000})
-                if exc.code not in (429, 502, 503, 504) or attempt == 2:
+                if exc.code not in (429, 502, 503, 504) or attempt == 2 or message.endswith("free-models-per-day"):
                     raise RuntimeError(message) from None
                 sleep(2 ** attempt)
                 continue

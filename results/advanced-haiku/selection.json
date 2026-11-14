@@ -1,0 +1,70 @@
+{
+  "signature": {
+    "benchmark_sha256": "f7643b67da4395945264da8b8928d967e2bbc96a5f3449a6d5f97c3756ee9a8b",
+    "configs": {
+      "text": {
+        "pages": 4,
+        "images": 0
+      },
+      "vision": {
+        "pages": 5,
+        "images": 3
+      }
+    },
+    "model": "claude-haiku-5-5",
+    "selection_rule": "Highest dev pass count, then lowest reported API cost, then config order."
+  },
+  "index_sha256": "2f808e508712f5f016a599033ab76f485b7a9c250285d2a1eae73d6de279d6cd",
+  "pdf": {
+    "title": "World Development Report 2024: The Middle-Income Trap",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "license": "CC BY 3.0 IGO; see rights page for third-party content",
+    "pdf_sha256": "dc69d858e364a1534a57c49fbb72237f69d88165a63933a98f01f3c20262aded",
+    "physical_pages": 276,
+    "indexed_page_records": 276,
+    "searchable_text_pages": 263,
+    "pages_without_text_layer": [
+      2,
+      4,
+      16,
+      26,
+      30,
+      84,
+      112,
+      116,
+      166,
+      220,
+      252,
+      274,
+      275
+    ],
+    "caption_pages": 113,
+    "references_by_kind": {
+      "figure": 112,
+      "table": 8,
+      "map": 3
+    },
+    "image_region": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "image_mode": "PDFium full-page raster, rendered on retrieval at 2x scale",
+    "versions": {
+      "pypdfium2": "5.13.0",
+      "pypdf": "6.21.4",
+      "pillow": "13.0.0"
+    },
+    "index_seconds": 1.6351794000001973,
+    "index_api_cost_usd": 0
+  },
+  "lexical_setup_seconds": 0.19742810000025202,
+  "gold_correction": {
+    "case": "d10",
+    "previous_expected_answer": "China.",
+    "corrected_expected_answer": "India.",
+    "reason": "Rechecked 2022 endpoints on Figure 9.10, PDF p265, before Haiku selection and test."
+  },
+  "selected": "vision"
+}

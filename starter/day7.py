@@ -6,7 +6,7 @@ from hashlib import sha256
 import json
 from pathlib import Path
 from statistics import mean, median
-from time import perf_counter
+from time import perf_counter, sleep
 
 from agent_metrics import aggregate
 from baseline import hit, validate
@@ -34,7 +34,14 @@ def write(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix(".tmp")
     temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    temp.replace(path)
+    for attempt in range(3):
+        try:
+            temp.replace(path)
+            break
+        except PermissionError:
+            if attempt == 2:
+                raise
+            sleep(0.1 * (attempt + 1))
 
 
 def execute(index, controller, config, case):

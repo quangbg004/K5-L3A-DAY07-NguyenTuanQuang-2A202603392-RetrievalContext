@@ -1,0 +1,766 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table S.1, what is India's Atlas-method GNI per capita in current US dollars for 2023?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 81,
+        "printed_page": 49,
+        "region": "Table S.1, India row, Atlas-method GNI per capita column"
+      }
+    ],
+    "expected_answer": "US$2,540."
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "group": "table",
+    "question": "What does Table O.3 recommend lower-middle-income countries do to discipline state-owned enterprises in the energy sector?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 59,
+        "printed_page": 27,
+        "region": "Table O.3, Energy row, lower-middle-income column"
+      }
+    ],
+    "expected_answer": "Harden their budget constraints."
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "group": "table",
+    "question": "According to Table 4.1, what is one potential positive employment effect of market power?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 135,
+        "printed_page": 103,
+        "region": "Table 4.1, Jobs row, Pros column"
+      }
+    ],
+    "expected_answer": "Demand for highly skilled workers grows."
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "group": "diagram",
+    "question": "In Figure O.8, which theorist's panel is labeled Energy and which is labeled Talent?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 44,
+        "printed_page": 12,
+        "region": "Figure O.8, panels a and b"
+      }
+    ],
+    "expected_answer": "Energy is Schumpeter; Talent is Aghion and Howitt."
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "group": "diagram",
+    "question": "In Figure 4.3, which firm is shown entering at the top of the quality ladder and which one is shown exiting?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 120,
+        "printed_page": 88,
+        "region": "Figure 4.3, ladder and opposing arrows"
+      }
+    ],
+    "expected_answer": "Firm 5 enters and Firm 4 exits."
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "group": "diagram",
+    "question": "In Map 6.1, which income group is represented by the orange markers?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 173,
+        "printed_page": 141,
+        "region": "Map 6.1, income group legend"
+      }
+    ],
+    "expected_answer": "Upper-middle-income."
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "group": "chart",
+    "question": "What does the horizontal axis in Figure 1.3 measure and in what unit?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 72,
+        "printed_page": 40,
+        "region": "Figure 1.3, horizontal axis"
+      }
+    ],
+    "expected_answer": "Duration of the sustained growth period in years."
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 6.1, what year is the investment price index relative to, and is the scale logarithmic or linear?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 171,
+        "printed_page": 139,
+        "region": "Figure 6.1, vertical axis"
+      }
+    ],
+    "expected_answer": "1985, and the scale is logarithmic."
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 9.3 panel b, which country has the largest share of global rare-earth processing?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 257,
+        "printed_page": 225,
+        "region": "Figure 9.3, panel b, rare earths bar and key"
+      }
+    ],
+    "expected_answer": "China."
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "group": "chart",
+    "question": "At the end of Figure 9.10, which named country or region has the highest carbon emissions per unit of GDP among the five plotted series?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 265,
+        "printed_page": 233,
+        "region": "Figure 9.10, endpoint and legend"
+      }
+    ],
+    "expected_answer": "India."
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "group": "multi-hop",
+    "question": "According to Table O.1, what was the high-income share of global GDP in 2022, and according to Table S.1 which income group is China in?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 36,
+        "printed_page": 4,
+        "region": "Table O.1, high-income GDP share"
+      },
+      {
+        "pdf_page": 81,
+        "printed_page": 49,
+        "region": "Table S.1, China row, income group"
+      }
+    ],
+    "expected_answer": "60.8%; upper-middle-income."
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "group": "multi-hop",
+    "question": "What is the potential consumer-welfare benefit in Table 4.1, and what intermediate objective sits immediately below disciplining incumbency in Figure 7.2?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 135,
+        "printed_page": 103,
+        "region": "Table 4.1, Consumer welfare row, Pros"
+      },
+      {
+        "pdf_page": 195,
+        "printed_page": 163,
+        "region": "Figure 7.2, middle box"
+      }
+    ],
+    "expected_answer": "Lower costs and therefore lower prices; contestability."
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "group": "text",
+    "question": "In the Slowing Growth chapter's key messages, at about what share of US GDP per capita does the median growth slowdown occur?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 65,
+        "printed_page": 33,
+        "region": "Chapter 1 Key messages, second bullet"
+      }
+    ],
+    "expected_answer": "11 percent."
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "group": "text",
+    "question": "According to the Shrinking Spaces chapter, what advanced-economy policy risks compounding already-high middle-income-country debt after COVID-19?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 101,
+        "printed_page": 69,
+        "region": "Chapter 3 Key messages, government debt bullet"
+      }
+    ],
+    "expected_answer": "Monetary tightening in high-income countries."
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "group": "text",
+    "question": "According to the opening of Disciplining Incumbency, what kind of markets help support incumbents while curbing abuse of market power?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 193,
+        "printed_page": 161,
+        "region": "Chapter 7 Key messages, first bullet"
+      }
+    ],
+    "expected_answer": "Contestable markets."
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "group": "missing",
+    "question": "What exact share of global GDP does Table O.1 give for high-income countries in 2035?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 36,
+        "printed_page": 4,
+        "region": "Table O.1 header and rows"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "Table O.1 is explicitly for 2022; it has no 2035 column."
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "group": "missing",
+    "question": "What annual budget in US dollars does Figure 7.2 assign to the interventions box?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 195,
+        "printed_page": 163,
+        "region": "Figure 7.2 labels and source"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "The diagram shows a policy relationship and has no budget scale or amounts."
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "group": "missing",
+    "question": "In Table S.1, what exact value does the report give for Viet Nam's productivity-constraining distortions?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 81,
+        "printed_page": 49,
+        "region": "Table S.1, Viet Nam row"
+      },
+      {
+        "pdf_page": 82,
+        "printed_page": 50,
+        "region": "Table S.1 continuation and notes"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "The cell is an em dash, and the note defines that as not available."
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "group": "table",
+    "question": "In Table O.1 for 2022, what percentage of global population and what percentage of global GDP belonged to lower-middle-income countries?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 36,
+        "printed_page": 4,
+        "region": "Table O.1, lower-middle-income row, population and GDP columns"
+      }
+    ],
+    "expected_answer": "40.3% of global population; 8.3% of global GDP."
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "group": "table",
+    "question": "In Table O.2, how does the infusion priority differ between low-income and lower-middle-income countries?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 39,
+        "printed_page": 7,
+        "region": "Table O.2, low-income and lower-middle-income rows, Infusion column"
+      }
+    ],
+    "expected_answer": "Lower priority for low-income, higher priority for lower-middle-income."
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "group": "table",
+    "question": "In Table O.3, what diaspora-related talent policy is listed in the upper-middle-income column?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 59,
+        "printed_page": 27,
+        "region": "Table O.3, Talent row, upper-middle-income column, diaspora bullet"
+      }
+    ],
+    "expected_answer": "Expand programs to connect with the diaspora in advanced economies."
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "group": "table",
+    "question": "In Table S.1, which has more researchers per million inhabitants, Viet Nam or Indonesia, and what values are shown?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 81,
+        "printed_page": 49,
+        "region": "Table S.1, Viet Nam and Indonesia rows, researchers per million column"
+      }
+    ],
+    "expected_answer": "Viet Nam: 772.4 versus Indonesia: 336.2 researchers per million inhabitants."
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "group": "table",
+    "question": "For lower-middle-income countries in Table 2.1, which two policies carry higher priority and which one carries lower priority?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 86,
+        "printed_page": 54,
+        "region": "Table 2.1, lower-middle-income row, all three priority columns"
+      }
+    ],
+    "expected_answer": "Investment and infusion are higher priority; innovation is lower priority."
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "group": "table",
+    "question": "In the Cons column of Table 4.1, which two negative innovation outcomes can accompany market power?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 135,
+        "printed_page": 103,
+        "region": "Table 4.1, Innovation row, Cons column"
+      }
+    ],
+    "expected_answer": "Fewer incentives to innovate and low firm entry."
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "group": "diagram",
+    "question": "In Figure O.10, which force has the largest circle in the initial diagram, and what happens to its relative prominence in the diagram after the arrow?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 49,
+        "printed_page": 17,
+        "region": "Figure O.10, before/after circles and arrow"
+      }
+    ],
+    "expected_answer": "Preservation is initially largest and becomes less prominent, approximately balanced with creation and destruction."
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "group": "diagram",
+    "question": "In panel c of Figure 4.2, which two groups are shown adding value together?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 119,
+        "printed_page": 87,
+        "region": "Figure 4.2, panel c labels and direction"
+      }
+    ],
+    "expected_answer": "Incumbents and entrants."
+  },
+  {
+    "id": "t09",
+    "split": "test",
+    "group": "diagram",
+    "question": "Which three boxes feed into Contestability in Figure 7.2?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 195,
+        "printed_page": 163,
+        "region": "Figure 7.2, bottom row feeding the middle box"
+      }
+    ],
+    "expected_answer": "Institutions, incentives, and interventions."
+  },
+  {
+    "id": "t10",
+    "split": "test",
+    "group": "diagram",
+    "question": "In Figure 9.2, what product class and two examples occupy the simple, standardized corner of the matrix?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 256,
+        "printed_page": 224,
+        "region": "Figure 9.2, simple row and standardized column, bottom left cell"
+      }
+    ],
+    "expected_answer": "Mass-produced products, such as solar photovoltaic modules and LEDs."
+  },
+  {
+    "id": "t11",
+    "split": "test",
+    "group": "diagram",
+    "question": "In Figure 9.6, which quadrant fails the domestic hurdle but clears the foreign hurdle?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 261,
+        "printed_page": 229,
+        "region": "Figure 9.6, upper-left quadrant"
+      }
+    ],
+    "expected_answer": "Quadrant IV, the upper-left quadrant."
+  },
+  {
+    "id": "t12",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 3.1 at the 2022 endpoint, which series is higher, new harmful or new helpful trade policies?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 104,
+        "printed_page": 72,
+        "region": "Figure 3.1, legend and 2022 endpoints"
+      }
+    ],
+    "expected_answer": "New harmful trade policies."
+  },
+  {
+    "id": "t13",
+    "split": "test",
+    "group": "chart",
+    "question": "In the 2023 bar in panel b of Figure 3.2, which component is larger, code 8541 or 8542?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 105,
+        "printed_page": 73,
+        "region": "Figure 3.2, panel b, legend and final stacked bar"
+      }
+    ],
+    "expected_answer": "Code 8541 is larger."
+  },
+  {
+    "id": "t14",
+    "split": "test",
+    "group": "chart",
+    "question": "Using Figure 7.8, which ownership category has the largest coal share and which has the largest renewable-energy share? Give their percentages.",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 201,
+        "printed_page": 169,
+        "region": "Figure 7.8, panels a and b, percentages and legend"
+      }
+    ],
+    "expected_answer": "State-owned enterprises lead coal at 84%; the private sector leads renewable energy at 80%."
+  },
+  {
+    "id": "t15",
+    "split": "test",
+    "group": "chart",
+    "question": "Which country in Figure 9.1 has the highest annotated learning rate, and what is it?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 255,
+        "printed_page": 223,
+        "region": "Figure 9.1, learning-rate labels in all three panels"
+      }
+    ],
+    "expected_answer": "China, 32.3%."
+  },
+  {
+    "id": "t16",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 9.7, which quadrant has the largest share, and how many countries out of the sample does it represent?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 262,
+        "printed_page": 230,
+        "region": "Figure 9.7, three bar groups and labels"
+      }
+    ],
+    "expected_answer": "Quadrant III, 14 of 31 countries."
+  },
+  {
+    "id": "t17",
+    "split": "test",
+    "group": "multi-hop",
+    "question": "What share of global CO2 emissions did upper-middle-income countries produce in Table O.1 for 2022, and which owner category dominates renewable energy in Figure 7.8 panel b?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 36,
+        "printed_page": 4,
+        "region": "Table O.1, upper-middle-income CO2 share"
+      },
+      {
+        "pdf_page": 201,
+        "printed_page": 169,
+        "region": "Figure 7.8, panel b ownership legend"
+      }
+    ],
+    "expected_answer": "48.6%; the private sector."
+  },
+  {
+    "id": "t18",
+    "split": "test",
+    "group": "multi-hop",
+    "question": "What grid-related investment does Table O.3 recommend at low income, and what three forces of preservation are named in the Preservation chapter's key messages?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 59,
+        "printed_page": 27,
+        "region": "Table O.3, low-income Energy row"
+      },
+      {
+        "pdf_page": 141,
+        "printed_page": 109,
+        "region": "Chapter 5 Preservation, key messages"
+      }
+    ],
+    "expected_answer": "Expand electricity access and grid networks; networks, neighborhoods, and norms."
+  },
+  {
+    "id": "t19",
+    "split": "test",
+    "group": "multi-hop",
+    "question": "In Table S.1, what is Japan's energy intensity in the table's units, and in Figure 9.8 which income group has the lowest cost of capital?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 82,
+        "printed_page": 50,
+        "region": "Table S.1, Japan row, energy intensity"
+      },
+      {
+        "pdf_page": 263,
+        "printed_page": 231,
+        "region": "Figure 9.8, income-group bars"
+      }
+    ],
+    "expected_answer": "4.22 exajoules per trillion US dollars of GDP; high-income."
+  },
+  {
+    "id": "t20",
+    "split": "test",
+    "group": "multi-hop",
+    "question": "How many countries out of the sample fall into Quadrant II in Figure 9.7, and which of the two investment hurdles does that quadrant clear in Figure 9.6?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 261,
+        "printed_page": 229,
+        "region": "Figure 9.6, Quadrant II"
+      },
+      {
+        "pdf_page": 262,
+        "printed_page": 230,
+        "region": "Figure 9.7, Quadrant II label and bar"
+      }
+    ],
+    "expected_answer": "12 of 31; it clears the domestic hurdle and fails the foreign hurdle."
+  },
+  {
+    "id": "t21",
+    "split": "test",
+    "group": "text",
+    "question": "According to the Preservation chapter's key messages, why does talent matter more in middle-income countries than in low-income countries?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 141,
+        "printed_page": 109,
+        "region": "Chapter 5 Preservation, first two bullets"
+      }
+    ],
+    "expected_answer": "Skilled workers are increasingly important to economic, structural, and technological transformation."
+  },
+  {
+    "id": "t22",
+    "split": "test",
+    "group": "text",
+    "question": "In the opening of Destruction, how does the growth rate of adoption of key clean-energy technologies compare with high-income countries, and how does the level of adoption compare?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 167,
+        "printed_page": 135,
+        "region": "Chapter 6 Destruction, second key message"
+      }
+    ],
+    "expected_answer": "Adoption grows faster in middle-income countries but its level is significantly lower."
+  },
+  {
+    "id": "t23",
+    "split": "test",
+    "group": "text",
+    "question": "In the Rewarding Merit chapter's key messages, what four contributions could policy makers use alongside firm size when assessing the value a firm adds?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 221,
+        "printed_page": 189,
+        "region": "Chapter 8 Rewarding Merit, second bullet"
+      }
+    ],
+    "expected_answer": "Jobs, exports, technology infusion, and innovation."
+  },
+  {
+    "id": "t24",
+    "split": "test",
+    "group": "text",
+    "question": "According to the key messages of Capitalizing on Crises, how can middle-income countries help reduce the global cost of decarbonization?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 253,
+        "printed_page": 221,
+        "region": "Chapter 9 Capitalizing on Crises, first key message"
+      }
+    ],
+    "expected_answer": "Infuse global technologies domestically and become producers of green intermediates for global markets."
+  },
+  {
+    "id": "t25",
+    "split": "test",
+    "group": "missing",
+    "question": "What carbon-tax rate in dollars per tonne does Table O.3 prescribe for upper-middle-income countries?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 59,
+        "printed_page": 27,
+        "region": "Table O.3, column headers and Energy row"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "The relevant energy cell recommends derisking low-carbon capital and increasing multilateral finance; it contains no prescribed carbon-tax rate."
+  },
+  {
+    "id": "t26",
+    "split": "test",
+    "group": "missing",
+    "question": "In Table S.1, what percentage of Japanese firms identify electricity as a major constraint?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 82,
+        "printed_page": 50,
+        "region": "Table S.1, Japan row, Energy stability cell and table note"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "The Japan entry for energy stability is an em dash, defined as not available."
+  },
+  {
+    "id": "t27",
+    "split": "test",
+    "group": "missing",
+    "question": "According to Figure 3.2, how many new harmful interventions were introduced in global semiconductor trade in 2030?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 105,
+        "printed_page": 73,
+        "region": "Figure 3.2, time axis of both panels"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "The chart ends in 2023 and does not provide a 2030 count."
+  },
+  {
+    "id": "t28",
+    "split": "test",
+    "group": "missing",
+    "question": "How many US dollars does Figure O.10 prescribe spending on creation after rebalancing?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 49,
+        "printed_page": 17,
+        "region": "Figure O.10, circle labels and layout"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "The visual uses unscaled circles and labels only. It has no monetary amounts or spending prescription."
+  },
+  {
+    "id": "t29",
+    "split": "test",
+    "group": "missing",
+    "question": "What exact minimum credit rating does Figure 9.6 require for a country to clear the domestic investment hurdle?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 261,
+        "printed_page": 229,
+        "region": "Figure 9.6, quadrants and labels"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "The hurdle compares rates of return, and the diagram has no credit rating threshold."
+  },
+  {
+    "id": "t30",
+    "split": "test",
+    "group": "missing",
+    "question": "What value does Figure 7.8 give for total global renewable generation in terawatt-hours?",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "locations": [
+      {
+        "pdf_page": 201,
+        "printed_page": 169,
+        "region": "Figure 7.8, two pie charts and legend"
+      }
+    ],
+    "expected_behavior": "abstain",
+    "absence_check": "The chart shows percentage shares for the countries in the study, with no total in terawatt-hours."
+  }
+]

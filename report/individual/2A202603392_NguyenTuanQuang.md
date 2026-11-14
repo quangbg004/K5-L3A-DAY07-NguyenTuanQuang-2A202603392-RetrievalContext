@@ -78,4 +78,55 @@ Dense dùng 4.831 prompt token và 611 completion token, hybrid dùng 4.871 và 
 
 [Trace và nhãn dense](../../results/test/dense) · [Trace và nhãn hybrid](../../results/test/hybrid)
 
-Trên bộ test này, hai cấu hình cùng đạt 5/5 về context nhưng chỉ 3/5 về câu trả lời đầy đủ. Hai lỗi từ chối nhầm đều qua bước kiểm tra định dạng citation. Tập test nhỏ và mỗi cấu hình chỉ chạy một lần nên chưa đo được độ ổn định khi chạy lại. Chi phí API của 82 lượt đánh giá cấu hình–câu hỏi đã lưu là 0,0363332 USD. Phạm vi bài làm là phần cơ bản.
+Trên bộ test này, hai cấu hình cùng đạt 5/5 về context nhưng chỉ 3/5 về câu trả lời đầy đủ. Hai lỗi từ chối nhầm đều qua bước kiểm tra định dạng citation. Tập test nhỏ và mỗi cấu hình chỉ chạy một lần nên chưa đo được độ ổn định khi chạy lại. Chi phí API của 82 lượt đánh giá cấu hình–câu hỏi phần cơ bản đã lưu là 0,0363332 USD.
+
+## Thử thách nâng cao · World Development Report 2024
+
+- Nguồn là World Bank. 2024. *World Development Report 2024: The Middle-Income Trap*. DOI 10.1596/978-1-4648-2078-6, CC BY 3.0 IGO. Quyền đối với thành phần bên thứ ba được ghi tại trang PDF 6. Bản gốc tải từ World Bank. [Hướng dẫn tái tạo](../../docs/advanced-run.md)
+- PDFium tạo bản ghi cho cả 276 trang gồm trang vật lý, nhãn trang in, lớp văn bản và số hiệu caption. Có 263 trang văn bản và 13 trang trắng đã kiểm tra bằng ảnh render. Có 113 trang gắn số hiệu bảng, hình hoặc bản đồ. Các bảng, sơ đồ và biểu đồ dạng vector được đọc từ ảnh toàn trang ở tỷ lệ 2× để giữ hàng, cột, chú giải và quan hệ không gian. Nội dung hình không có caption nhận diện được truy xuất gián tiếp qua văn bản trên trang. Pipeline chưa OCR hình không có lớp text và có thể tìm thêm trang chứa tham chiếu cùng số hiệu. [Manifest](../../data/advanced/manifest.json)
+- Benchmark có 18 câu dev (15 có đáp án, 3 thiếu bằng chứng) và 30 câu test (24 có đáp án, 6 thiếu bằng chứng). Mỗi câu ghi trang vật lý, trang in và hàng, cột hoặc vùng hình cần kiểm tra. Hai giá trị gold đọc từ biểu đồ được sửa sau khi đối chiếu ảnh độ phân giải cao và trước lần chạy test đầu tiên. Câu hỏi và dữ liệu dev dùng để chọn cấu hình không thay đổi. [Benchmark](../../data/advanced/benchmark.json)
+- Sau khi OpenRouter trả HTTP 402 cho GPT-4.1 mini trong các lượt chạy nâng cao, hai cấu hình dev được đo bằng cùng model `nvidia/nemotron-3.5-super-vl:free`. Tool `search_report` gọi theo câu hỏi gốc và xếp hạng bằng TF-IDF kết hợp số hiệu caption. Cấu hình `text` gửi tối đa 4 trang dạng văn bản. Cấu hình `vision` gửi tối đa 5 trang văn bản kèm tối đa 3 ảnh trang trùng số hiệu. Citation là ID trang vật lý. Model phải chỉ ra mục, panel hoặc hàng liên quan trong câu trả lời khi phù hợp.
+
+| Dev | Đạt | Thời gian trung vị | Prompt / completion token | Chi phí API |
+|---|---:|---:|---:|---:|
+| Text | 8/18 (44,4%) | 0,80 s | 37.106 / 485 | 0 USD |
+| Vision | 16/18 (88,9%) | 2,81 s | 79.977 / 529 | 0 USD |
+
+Ảnh trang giúp đọc đúng mũi tên vào và ra trong sơ đồ chất lượng ở d05, nhận diện màu chú giải bản đồ ở d06 và giữ đúng tỷ lệ 60,8% của bảng ở d11. Vision vẫn lấy số liệu 2022 cho câu hỏi về 2035 ở d16, và trả dấu gạch ngang như câu trả lời ở d18. Cấu hình vision được chốt theo số câu dev đạt. [Trace dev](../../results/advanced/dev) · [Cấu hình đã chốt](../../results/advanced/selection.json)
+
+| Nhóm test | Đạt / tổng | Lỗi hệ thống |
+|---|---:|---:|
+| Bảng | 0/6 | 6 |
+| Ảnh, sơ đồ | 0/5 | 5 |
+| Biểu đồ | 0/5 | 5 |
+| Multi-hop | 0/4 | 4 |
+| Text | 0/4 | 4 |
+| Thiếu bằng chứng | 0/6 | 6 |
+| **Toàn bộ** | **0/30** | **30** |
+
+Cả 30 lượt test Nemotron đã truy xuất nhưng API trả HTTP 429 do hết quota miễn phí theo ngày. Theo rubric, các lỗi này tính không đạt. Thời gian trung vị của lượt lỗi là 5,10 s, chi phí API được ghi là 0 USD. Chẩn đoán retrieval của cấu hình Nemotron tìm đủ trang evidence cho 23/24 câu có đáp án ở top-5. Câu t18 tìm được Table O.3 nhưng thiếu trang mở đầu chương Preservation. [Trace và nhãn test Nemotron](../../results/advanced/test/vision) · [Chẩn đoán truy xuất](../../results/advanced/test/retrieval_diagnostic.json)
+
+### Kết quả nộp phần nâng cao với Claude Haiku 5.5
+
+Chạy Anthropic Messages API trực tiếp bằng `claude-haiku-5-5`, cùng 276 trang và cùng câu hỏi. Dùng đầu ra JSON có citation theo ID trang. Sau lượt dev thăm dò, bổ sung yêu cầu khớp đúng kỳ dữ liệu, xử lý dấu gạch ở ô thiếu dữ liệu và ưu tiên đoạn Key messages theo tên chương trong câu hỏi. Tăng giới hạn trả lời lên 1.200 token vì một lượt dev chạm trần 650 token. Đối chiếu lại Figure 9.10 trên trang PDF 265 và sửa gold của câu dev d10 thành India trước khi chấm dev, chốt cấu hình và chạy test. Bảng Nemotron ở trên giữ kết quả lần chấm cũ.
+
+| Cấu hình dev | Đạt | Thời gian trung vị | Prompt / completion token | Chi phí ước tính |
+|---|---:|---:|---:|---:|
+| Text | 9/18 (50,0%) | 1,92 s | 56.066 / 3.023 | 0,007118 USD |
+| Vision | 17/18 (94,4%) | 2,61 s | 112.652 / 1.396 | 0,011963 USD |
+
+Chốt `vision` theo số câu dev đạt. Lỗi d10 là model chọn China dù đường India cao hơn ở năm 2022. Vision từ chối đúng cả ba câu thiếu bằng chứng trên dev. [Trace và nhãn dev](../../results/advanced-haiku/dev) · [Cấu hình chốt](../../results/advanced-haiku/selection.json)
+
+| Nhóm test | Đạt / tổng | Tỷ lệ |
+|---|---:|---:|
+| Bảng | 6/6 | 100% |
+| Ảnh, sơ đồ | 5/5 | 100% |
+| Biểu đồ | 4/5 | 80% |
+| Multi-hop | 4/4 | 100% |
+| Text | 4/4 | 100% |
+| Thiếu bằng chứng | 6/6 | 100% |
+| **Toàn bộ** | **29/30** | **96,7%** |
+
+Test vượt ngưỡng 27/30. Câu t13 chọn sai phần lớn hơn của cột chồng ở năm 2023, Figure 3.2, PDF 105. Phần 8541 màu xanh đậm cao hơn phần 8542 màu cam. Giá trị ước lượng trong chính câu trả lời cũng cho thấy điều đó, nhưng kết luận của model chọn 8542. Câu t18 lấy đúng hai nguồn, Table O.3 ở PDF 59 và phần Key messages của chương Preservation ở PDF 141. Cả sáu câu thiếu bằng chứng được từ chối mà không đưa giá trị suy đoán.
+
+Không có lỗi API trên 30 câu test. Có một lần ghi tệp cuối bị Windows chặn đổi tên trong khi đọc trace. Đã khôi phục bản ghi đầy đủ 30 câu từ tệp tạm, không gọi lại API. Thời gian trung vị của pipeline là 2,58 s/câu, với 178.532 token đầu vào và 2.333 token đầu ra. Chi phí API ước tính là 0,019020 USD cho test và 0,038101 USD cho 66 lượt dev/test đã lưu. Con số này dựa trên token API trả về và đơn giá tiêu chuẩn, chưa tính lượt thăm dò. Nhãn từng câu do Codex đối chiếu với ảnh và nội dung PDF. [Trace, nhãn và tổng hợp test](../../results/advanced-haiku/test/vision) · [Đơn giá Anthropic](https://platform.claude.com/docs/en/models/haiku-5-5/overview)

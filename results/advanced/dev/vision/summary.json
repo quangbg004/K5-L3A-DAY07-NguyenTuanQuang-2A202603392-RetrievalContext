@@ -1,0 +1,46 @@
+{
+  "groups": {
+    "table": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "overall": {
+      "n": 16,
+      "N": 18,
+      "rate": 0.8888888888888888
+    },
+    "diagram": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "chart": {
+      "n": 4,
+      "N": 4,
+      "rate": 1.0
+    },
+    "multi-hop": {
+      "n": 2,
+      "N": 2,
+      "rate": 1.0
+    },
+    "text": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "missing": {
+      "n": 1,
+      "N": 3,
+      "rate": 0.3333333333333333
+    }
+  },
+  "errors": 0,
+  "median_ms": 2812.636999999995,
+  "usage": {
+    "cost": 0,
+    "prompt_tokens": 79977,
+    "completion_tokens": 529
+  }
+}

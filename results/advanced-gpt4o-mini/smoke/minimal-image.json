@@ -1,0 +1,12 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "model_error",
+      "error": "OpenRouter HTTP 402: insufficient credits for the request",
+      "elapsed_ms": 1450.8347000000867
+    }
+  ],
+  "status": "error",
+  "error": "OpenRouter HTTP 402: insufficient credits for the request"
+}

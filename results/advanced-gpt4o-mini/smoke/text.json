@@ -1,0 +1,151 @@
+{
+  "question": "In Figure 4.3, which firm is shown entering at the top of the quality ladder and which one is shown exiting?",
+  "status": "error",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_report",
+      "arguments": {
+        "query": "In Figure 4.3, which firm is shown entering at the top of the quality ladder and which one is shown exiting?",
+        "top_k": 4
+      },
+      "results": [
+        {
+          "id": "p120",
+          "page": 120,
+          "label": "88",
+          "references": [
+            "figure 4.3"
+          ],
+          "score": 2.076923076923077,
+          "matched_ref": true,
+          "excerpt": "spillovers and business stealing, which Figure 4.3 Entrants drive growth: Insights from Aghion and Howitt’s seminal paper on creative destruction Source: WDR 2024 team. Note: The figure depicts a quality ladder based on the Aghion-Howitt model of creative destruction. IN represents a new firm entering the market and OUT represents a firm exiting the market. Each innovation adds a new rung to the ladder and elevates the prospects for all future producers. This hierarchy suggests that there may be underinvestment in innovation because innovators often fail to consider the height of each rung, which determines the long-term benefits of their creative endeavors for society. On the other hand, there may be an overinvestment in entry. Entrants primarily focus on displacing incumbents, so more entry is associated with shorter durations of monopoly for incumbents, discouraging innovations by future entrants. Firm 5 Firm 4 Firm 3 Firm 2 Firm 1 IN OUT Productivity or quality of production"
+        },
+        {
+          "id": "p207",
+          "page": 207,
+          "label": "175",
+          "references": [],
+          "score": 0.07142857142857142,
+          "matched_ref": false,
+          "excerpt": "Disciplining Incumbency | 175 Improving firms’ capabilities—including through exporter training, country promotion, and market research—has been shown to increase exports by reducing fixed costs and enabling firms to initiate exports, explore new interna￾tional markets, or introduce new products.49 Openness to trade also matters. For example, in Pakistan increases in upstream markets’ tariff duties reduced the productivity of firms in the downstream markets.50 In Peru, firms that were helped to enhance their capabilities in the early 2000s experienced a 17 percent higher export growth rate than firms that did not participate. The higher rate was driven primarily by expan￾sion in the number of countries served and the variety of products traded.51 Direct support pro￾grams to encourage the integration of small firms with large ones have been shown to increase the export capabilities of small firms (box 7.3). But to ensure that the benefits are durable, complemen￾tary measures to facilitate technology absorption are also needed.52 The integration of economic principles in industrial policy design and implementation is essential for infusion for three reasons. First, assessing the need for industrial policy to address identified market failures, as well as the opportu￾nity costs of state support, is important. Second, ensuring that design and implementation foster contestability and merit will mitigate the risks Box 7.3 Supplier development programs to connect small firms with large firms Chile’s Supplier Development Program establishes two-way connections between poten￾tial suppliers"
+        },
+        {
+          "id": "p145",
+          "page": 145,
+          "label": "113",
+          "references": [
+            "figure b5.1.1"
+          ],
+          "score": 0.06666666666666667,
+          "matched_ref": false,
+          "excerpt": "be a prerequisite for greater technology adoption. a. The World Bank–administered FAT survey provides firm-level data on the adoption of more than 300 technologies across approximately 50 business functions. These include general business functions that are common to all firms and sectors, such as business administration, operations planning, sales, and quality control. They also include sector-specific business functions that vary across sectors. For food processing, for example, functions include input testing; mixing, blending, and cooking; antibacterial procedures; packaging; and storage. For further information, see Cirera, Comin, and Cruz (2022). Figure B5.1.1 Better-educated managers are more likely to adopt technology in middle-income countries Source: WDR 2024 team based on data from the Firm-level Adoption of Technology (FAT) survey. Note: The figure shows coefficients from regressing a technology adoption index (extensive index, 1–5) on the independent variables shown in the figure, controlling for fixed effects by country, sector, and firm size (small/medium/large). The figure covers the following middle-income countries: Bangladesh, Brazil, Cambodia, Georgia, Ghana, India, Kenya, Senegal, and Viet Nam. BA = bachelor’s degree. 0 0.1 0.2 0.3 0.4 0.5 Top manager with BA+ Regression coefficient of technology adoption Top manager studied abroad General business function Sector-specific business function"
+        },
+        {
+          "id": "p144",
+          "page": 144,
+          "label": "112",
+          "references": [
+            "figure 5.1"
+          ],
+          "score": 0.0625,
+          "matched_ref": false,
+          "excerpt": "development of a “human capital elite,” where there is considerable mobility within a class boundary but not across classes.4 A striking example is the intergenerational persistence among political elites (where the social and economic sta￾tus of family members between generations stays the same). In many low-income and middle-income countries, the descendants of political elites also tend to be involved in and consolidate power and resources through politics.5 Countries characterized by higher income inequality are often those in which a significant portion of economic advantage is transmitted from parents to their children. The association between income inequality and intergenerational immobility—often referred to as the “Great Gatsby Curve”—is positive as more unequal countries are more socially immobile (figure 5.2).6 This associ￾ation is much stronger for middle-income coun￾tries than for high-income countries. At one end of the income equality scale is Finland, where schooling is largely free at all lev￾els and is of very high quality by international standards. There, 80 percent of children attain a level of social mobility that is not dependent on their parents’ social status.7 By contrast, in middle-income countries on average, intergener￾ational persistence is much higher (40 percent). Specifically, the share of individuals whose social and economic status is the same as that of the previous generation is more than twice as large as in Finland. Closing even a fraction of this gap means a great boost to"
+        }
+      ],
+      "elapsed_ms": 6.097899999986112
+    },
+    {
+      "event": "model_error",
+      "error": "OpenRouter HTTP 402: insufficient credits for the request",
+      "elapsed_ms": 556.9951000006768
+    }
+  ],
+  "citations": [],
+  "context": [
+    {
+      "id": "p120",
+      "page": 120,
+      "label": "88",
+      "references": [
+        "figure 4.3"
+      ],
+      "score": 2.076923076923077,
+      "matched_ref": true,
+      "excerpt": "spillovers and business stealing, which Figure 4.3 Entrants drive growth: Insights from Aghion and Howitt’s seminal paper on creative destruction Source: WDR 2024 team. Note: The figure depicts a quality ladder based on the Aghion-Howitt model of creative destruction. IN represents a new firm entering the market and OUT represents a firm exiting the market. Each innovation adds a new rung to the ladder and elevates the prospects for all future producers. This hierarchy suggests that there may be underinvestment in innovation because innovators often fail to consider the height of each rung, which determines the long-term benefits of their creative endeavors for society. On the other hand, there may be an overinvestment in entry. Entrants primarily focus on displacing incumbents, so more entry is associated with shorter durations of monopoly for incumbents, discouraging innovations by future entrants. Firm 5 Firm 4 Firm 3 Firm 2 Firm 1 IN OUT Productivity or quality of production",
+      "region": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "image_sent": false,
+      "text": "88 | WORLD DEVELOPMENT REPORT 2024\nthumb to regulate and lack the informa￾tion and capabilities needed to identify\nkey constraints impeding the growth of\nfirms. Over the last three decades, econo￾mists have developed modern techniques\nto provide calibrated assessments of what\nis enabling or suppressing the growth of\nfirms. These techniques include better\nmeasurement of business dynamics that\nincludes market concentration, markups,\nproductivity dispersion, firm entry and\nexit rates, and job reallocation.\nThis chapter examines the forces of creation\nfrom the perspective of firms with an emphasis\non the process in middle-income countries. A\nbroader treatment that includes talent and energy\nsources appears in part 3 of this Report.\nCreative destruction: Three\ndecades of increasingly\nrefined analysis\nA first look: Entrants create value\nWhen Canadian economist Peter Howitt vis￾ited the Massachusetts Institute of Technology\n(MIT) in the summer of 1987, he crossed paths\nwith Philippe Aghion, an assistant professor at\nMIT. Their collaboration gave birth to the for￾mal theory of creative destruction, and their\npaper “A Model of Growth through Creative\nDestruction,” published in Econometrica in\n1992, became one of the most influential papers\nin economics.2\nTheir main insight was that\neconomies expand organically through innova￾tion driven by new entrants. Aghion and Howitt\nattributed innovation and growth exclusively to\nnewcomers (figure 4.3).\nSuch models of creative destruction, that is,\nquality ladder models, depict a hierarchical struc￾ture with multiple rungs in which each innova￾tion adds a new rung to the ladder and elevates\nthe prospects for all future producers—a phe￾nomenon known as intertemporal spillovers. This\nhierarchy suggests that there may be underin￾vestment in innovation because innovators often\nfail to consider the height of each rung, which\ndetermines the long-term benefits of their cre￾ative endeavors for society. On the other hand,\nthere may be an overinvestment in entry. Entrants\nprimarily focus on displacing incumbents, and\nso more entry is associated with shorter dura￾tions of monopoly for incumbents, discouraging\ninnovations by future entrants. This motive—\ncalled “business stealing”—carries the risk that\na society could end up overinvesting in research\nand development (R&D) and creating too much\nentry. Whether equilibrium results in an excess or\ndeficiency of R&D depends on the varying mag￾nitudes of spillovers and business stealing, which\nFigure 4.3 Entrants drive growth: Insights\nfrom Aghion and Howitt’s seminal paper on\ncreative destru"
+    },
+    {
+      "id": "p207",
+      "page": 207,
+      "label": "175",
+      "references": [],
+      "score": 0.07142857142857142,
+      "matched_ref": false,
+      "excerpt": "Disciplining Incumbency | 175 Improving firms’ capabilities—including through exporter training, country promotion, and market research—has been shown to increase exports by reducing fixed costs and enabling firms to initiate exports, explore new interna￾tional markets, or introduce new products.49 Openness to trade also matters. For example, in Pakistan increases in upstream markets’ tariff duties reduced the productivity of firms in the downstream markets.50 In Peru, firms that were helped to enhance their capabilities in the early 2000s experienced a 17 percent higher export growth rate than firms that did not participate. The higher rate was driven primarily by expan￾sion in the number of countries served and the variety of products traded.51 Direct support pro￾grams to encourage the integration of small firms with large ones have been shown to increase the export capabilities of small firms (box 7.3). But to ensure that the benefits are durable, complemen￾tary measures to facilitate technology absorption are also needed.52 The integration of economic principles in industrial policy design and implementation is essential for infusion for three reasons. First, assessing the need for industrial policy to address identified market failures, as well as the opportu￾nity costs of state support, is important. Second, ensuring that design and implementation foster contestability and merit will mitigate the risks Box 7.3 Supplier development programs to connect small firms with large firms Chile’s Supplier Development Program establishes two-way connections between poten￾tial suppliers",
+      "region": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "image_sent": false,
+      "text": "Disciplining Incumbency | 175 Improving firms’ capabilities—including through exporter training, country promotion, and market research—has been shown to increase exports by reducing fixed costs and enabling firms to initiate exports, explore new interna￾tional markets, or introduce new products.49 Openness to trade also matters. For example, in Pakistan increases in upstream markets’ tariff duties reduced the productivity of firms in the downstream markets.50 In Peru, firms that were helped to enhance their capabilities in the early 2000s experienced a 17 percent higher export growth rate than firms that did not participate. The higher rate was driven primarily by expan￾sion in the number of countries served and the variety of products traded.51 Direct support pro￾grams to encourage the integration of small firms with large ones have been shown to increase the export capabilities of small firms (box 7.3). But to ensure that the benefits are durable, complemen￾tary measures to facilitate technology absorption are also needed.52 The integration of economic principles in industrial policy design and implementation is essential for infusion for three reasons. First, assessing the need for industrial policy to address identified market failures, as well as the opportu￾nity costs of state support, is important. Second, ensuring that "
+    },
+    {
+      "id": "p145",
+      "page": 145,
+      "label": "113",
+      "references": [
+        "figure b5.1.1"
+      ],
+      "score": 0.06666666666666667,
+      "matched_ref": false,
+      "excerpt": "be a prerequisite for greater technology adoption. a. The World Bank–administered FAT survey provides firm-level data on the adoption of more than 300 technologies across approximately 50 business functions. These include general business functions that are common to all firms and sectors, such as business administration, operations planning, sales, and quality control. They also include sector-specific business functions that vary across sectors. For food processing, for example, functions include input testing; mixing, blending, and cooking; antibacterial procedures; packaging; and storage. For further information, see Cirera, Comin, and Cruz (2022). Figure B5.1.1 Better-educated managers are more likely to adopt technology in middle-income countries Source: WDR 2024 team based on data from the Firm-level Adoption of Technology (FAT) survey. Note: The figure shows coefficients from regressing a technology adoption index (extensive index, 1–5) on the independent variables shown in the figure, controlling for fixed effects by country, sector, and firm size (small/medium/large). The figure covers the following middle-income countries: Bangladesh, Brazil, Cambodia, Georgia, Ghana, India, Kenya, Senegal, and Viet Nam. BA = bachelor’s degree. 0 0.1 0.2 0.3 0.4 0.5 Top manager with BA+ Regression coefficient of technology adoption Top manager studied abroad General business function Sector-specific business function",
+      "region": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "image_sent": false,
+      "text": "be a prerequisite for greater technology adoption. a. The World Bank–administered FAT survey provides firm-level data on the adoption of more than 300 technologies across approximately 50 business functions. These include general business functions that are common to all firms and sectors, such as business administration, operations planning, sales, and quality control. They also include sector-specific business functions that vary across sectors. For food processing, for example, functions include input testing; mixing, blending, and cooking; antibacterial procedures; packaging; and storage. For further information, see Cirera, Comin, and Cruz (2022). Figure B5.1.1 Better-educated managers are more likely to adopt technology in middle-income countries Source: WDR 2024 team based on data from the Firm-level Adoption of Technology (FAT) survey. Note: The figure shows coefficients from regressing a technology adoption index (extensive index, 1–5) on the independent variables shown in the figure, controlling for fixed effects by country, sector, and firm size (small/medium/large). The figure covers the following middle-income countries: Bangladesh, Brazil, Cambodia, Georgia, Ghana, India, Kenya, Senegal, and Viet Nam. BA = bachelor’s degree. 0 0.1 0.2 0.3 0.4 0.5 Top manager with BA+ Regression coefficient of technology adoption To"
+    },
+    {
+      "id": "p144",
+      "page": 144,
+      "label": "112",
+      "references": [
+        "figure 5.1"
+      ],
+      "score": 0.0625,
+      "matched_ref": false,
+      "excerpt": "development of a “human capital elite,” where there is considerable mobility within a class boundary but not across classes.4 A striking example is the intergenerational persistence among political elites (where the social and economic sta￾tus of family members between generations stays the same). In many low-income and middle-income countries, the descendants of political elites also tend to be involved in and consolidate power and resources through politics.5 Countries characterized by higher income inequality are often those in which a significant portion of economic advantage is transmitted from parents to their children. The association between income inequality and intergenerational immobility—often referred to as the “Great Gatsby Curve”—is positive as more unequal countries are more socially immobile (figure 5.2).6 This associ￾ation is much stronger for middle-income coun￾tries than for high-income countries. At one end of the income equality scale is Finland, where schooling is largely free at all lev￾els and is of very high quality by international standards. There, 80 percent of children attain a level of social mobility that is not dependent on their parents’ social status.7 By contrast, in middle-income countries on average, intergener￾ational persistence is much higher (40 percent). Specifically, the share of individuals whose social and economic status is the same as that of the previous generation is more than twice as large as in Finland. Closing even a fraction of this gap means a great boost to",
+      "region": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "image_sent": false,
+      "text": "development of a “human capital elite,” where there is considerable mobility within a class boundary but not across classes.4 A striking example is the intergenerational persistence among political elites (where the social and economic sta￾tus of family members between generations stays the same). In many low-income and middle-income countries, the descendants of political elites also tend to be involved in and consolidate power and resources through politics.5 Countries characterized by higher income inequality are often those in which a significant portion of economic advantage is transmitted from parents to their children. The association between income inequality and intergenerational immobility—often referred to as the “Great Gatsby Curve”—is positive as more unequal countries are more socially immobile (figure 5.2).6 This associ￾ation is much stronger for middle-income coun￾tries than for high-income countries. At one end of the income equality scale is Finland, where schooling is largely free at all lev￾els and is of very high quality by international standards. There, 80 percent of children attain a level of social mobility that is not dependent on their parents’ social status.7 By contrast, in middle-income countries on average, intergener￾ational persistence is much higher (40 percent). Specifically, the share of indiv"
+    }
+  ],
+  "error": {
+    "type": "RuntimeError",
+    "message": "OpenRouter HTTP 402: insufficient credits for the request"
+  },
+  "elapsed_ms": 563.5638000003382,
+  "usage": {
+    "cost": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+  }
+}

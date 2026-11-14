@@ -1,0 +1,72 @@
+{
+  "signature": {
+    "benchmark_sha256": "4788c5e59d384feb7d4becb49b2f33e52665e8a8d5b943aa2b53da4e62562a4b",
+    "configs": {
+      "text": {
+        "pages": 4,
+        "images": 0
+      },
+      "vision": {
+        "pages": 5,
+        "images": 3
+      }
+    },
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "selection_rule": "Highest dev pass count, then lowest reported API cost, then config order."
+  },
+  "index_sha256": "2f808e508712f5f016a599033ab76f485b7a9c250285d2a1eae73d6de279d6cd",
+  "pdf": {
+    "title": "World Development Report 2024: The Middle-Income Trap",
+    "source": "https://doi.org/10.1596/978-1-4648-2078-6",
+    "license": "CC BY 3.0 IGO; see rights page for third-party content",
+    "pdf_sha256": "dc69d858e364a1534a57c49fbb72237f69d88165a63933a98f01f3c20262aded",
+    "physical_pages": 276,
+    "indexed_page_records": 276,
+    "searchable_text_pages": 263,
+    "pages_without_text_layer": [
+      2,
+      4,
+      16,
+      26,
+      30,
+      84,
+      112,
+      116,
+      166,
+      220,
+      252,
+      274,
+      275
+    ],
+    "caption_pages": 113,
+    "references_by_kind": {
+      "figure": 112,
+      "table": 8,
+      "map": 3
+    },
+    "image_region": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "image_mode": "PDFium full-page raster, rendered on retrieval at 2x scale",
+    "versions": {
+      "pypdfium2": "5.13.0",
+      "pypdf": "6.21.4",
+      "pillow": "13.0.0"
+    },
+    "index_seconds": 1.6351794000001973,
+    "index_api_cost_usd": 0
+  },
+  "lexical_setup_seconds": 0.20513519999985874,
+  "pre_test_gold_correction": {
+    "previous_benchmark_sha256": "f51963248f5433341cbf14cccde8e22932b10a1ef7c84ab2e8f4da9c498e08bf",
+    "cases": [
+      "t13",
+      "t15"
+    ],
+    "reason": "Corrected chart-reading transcriptions against original rendered pages before any test execution. Questions, dev labels and dev runs are unchanged."
+  },
+  "selected": "vision"
+}

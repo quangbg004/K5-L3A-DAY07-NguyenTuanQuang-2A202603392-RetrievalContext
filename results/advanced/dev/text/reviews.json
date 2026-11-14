@@ -1,0 +1,92 @@
+[
+  {
+    "id": "d01",
+    "pass": true,
+    "reason": "Đáp án khớp nội dung gốc: US$2,540. Vùng đối chiếu: PDF 81, Table S.1, India row, Atlas-method GNI per capita column."
+  },
+  {
+    "id": "d02",
+    "pass": false,
+    "reason": "Chọn nhầm nội dung ở cột thu nhập thấp thay vì biện pháp siết ràng buộc ngân sách ở cột thu nhập trung bình thấp."
+  },
+  {
+    "id": "d03",
+    "pass": false,
+    "reason": "Từ chối dù bảng có ô Jobs / Pros."
+  },
+  {
+    "id": "d04",
+    "pass": true,
+    "reason": "Đáp án khớp nội dung gốc: Energy is Schumpeter; Talent is Aghion and Howitt. Vùng đối chiếu: PDF 44, Figure O.8, panels a and b."
+  },
+  {
+    "id": "d05",
+    "pass": false,
+    "reason": "Từ chối dù sơ đồ chỉ rõ hướng hai mũi tên."
+  },
+  {
+    "id": "d06",
+    "pass": false,
+    "reason": "Thiếu chữ upper, màu cam chỉ nhóm thu nhập trung bình cao."
+  },
+  {
+    "id": "d07",
+    "pass": false,
+    "reason": "Nhầm trục tung với trục hoành."
+  },
+  {
+    "id": "d08",
+    "pass": false,
+    "reason": "Từ chối dù trục tung ghi năm gốc và loại thang."
+  },
+  {
+    "id": "d09",
+    "pass": true,
+    "reason": "Đáp án khớp nội dung gốc: China. Vùng đối chiếu: PDF 257, Figure 9.3, panel b, rare earths bar and key."
+  },
+  {
+    "id": "d10",
+    "pass": false,
+    "reason": "Từ chối dù đường China kết thúc cao nhất."
+  },
+  {
+    "id": "d11",
+    "pass": false,
+    "reason": "Làm tròn 60,8% thành 60%; mất giá trị chính xác trong bảng."
+  },
+  {
+    "id": "d12",
+    "pass": false,
+    "reason": "Thiếu chi phí thấp hơn và đổi nhãn Contestability trong sơ đồ thành contestable markets."
+  },
+  {
+    "id": "d13",
+    "pass": true,
+    "reason": "Đáp án khớp nội dung gốc: 11 percent. Vùng đối chiếu: PDF 65, Chapter 1 Key messages, second bullet."
+  },
+  {
+    "id": "d14",
+    "pass": true,
+    "reason": "Đáp án khớp nội dung gốc: Monetary tightening in high-income countries. Vùng đối chiếu: PDF 101, Chapter 3 Key messages, government debt bullet."
+  },
+  {
+    "id": "d15",
+    "pass": true,
+    "reason": "Đáp án khớp nội dung gốc: Contestable markets. Vùng đối chiếu: PDF 193, Chapter 7 Key messages, first bullet."
+  },
+  {
+    "id": "d16",
+    "pass": true,
+    "reason": "Agent từ chối, không đưa số suy đoán. Table O.1 is explicitly for 2022; it has no 2035 column."
+  },
+  {
+    "id": "d17",
+    "pass": true,
+    "reason": "Agent từ chối, không đưa số suy đoán. The diagram shows a policy relationship and has no budget scale or amounts."
+  },
+  {
+    "id": "d18",
+    "pass": false,
+    "reason": "Nhầm 0,0 của cột technology index với ô distortions để trống."
+  }
+]

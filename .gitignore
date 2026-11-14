@@ -10,3 +10,5 @@ __pycache__/
 starter/data/
 starter/results/
 results-reproduction/
+tmp/pdfs/
+results-advanced-reproduction/
