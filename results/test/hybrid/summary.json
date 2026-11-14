@@ -1,0 +1,63 @@
+{
+  "hit1": {
+    "n": 3,
+    "N": 5,
+    "rate": 0.6
+  },
+  "hit3": {
+    "n": 5,
+    "N": 5,
+    "rate": 1.0
+  },
+  "context_hit": {
+    "n": 5,
+    "N": 5,
+    "rate": 1.0
+  },
+  "errors": 0,
+  "tool_calls": {
+    "1": 7
+  },
+  "median_original_ms": 69.50890000007348,
+  "median_total_ms": 2385.6987999997727,
+  "avg_context_chars": 1453.142857142857,
+  "usage": {
+    "prompt_tokens": 4871,
+    "completion_tokens": 565,
+    "cost": 0.0028523999999999997
+  },
+  "agent": {
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 2,
+      "1": 0,
+      "2": 3,
+      "N": 5,
+      "mean": 1.2
+    },
+    "citation_validity": {
+      "n": 4,
+      "N": 4
+    },
+    "answer_citation_coverage": {
+      "n": 3,
+      "N": 3
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 2,
+      "N": 5
+    }
+  },
+  "context_grades": {
+    "2": 5
+  }
+}

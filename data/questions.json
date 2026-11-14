@@ -1,0 +1,314 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What two types of memory help an agent retain context?",
+    "answerable": true,
+    "expected_answer": "Short-term and long-term memory.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 5,
+        "evidence": "both short-term and long-term memory components"
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What does an agent protocol define for structured communication?",
+    "answerable": true,
+    "expected_answer": "Rules, formats and procedures.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 6,
+        "evidence": "the rules, formats, and procedures for structured communication"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What two axes does the survey use to classify protocols?",
+    "answerable": true,
+    "expected_answer": "Context-oriented vs inter-agent, and general-purpose vs domain-specific.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 4,
+        "evidence": "context-oriented vs. inter-agent protocols and general-purpose vs. domain-specific protocols"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How do general-purpose context protocols differ from domain-specific ones?",
+    "answerable": true,
+    "expected_answer": "The former use a unified interface, the latter optimize for particular use cases.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 9,
+        "evidence": "General-purpose protocols aim to support a wide range of agents and context providers through a unified interface, while domain-specific protocols focus on specialized optimization for particular use cases."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What can count as a resource in the MCP model?",
+    "answerable": true,
+    "expected_answer": "Local or remote data, tools or services.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 10,
+        "evidence": "Resource refers to data (e.g., local file systems), tools (e.g., Git), or services (e.g., search engines) provided locally or remotely."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Where is an agents.json contract typically published?",
+    "answerable": true,
+    "expected_answer": "At /.well-known/agents.json.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 11,
+        "evidence": "typically hosted at /.well-known/agents.json."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What identity standard does ANP use?",
+    "answerable": true,
+    "expected_answer": "W3C DID.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 12,
+        "evidence": "W3C DID (Decentralized Identifiers) standard"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Which transport, message format and streaming mechanism does the survey list for A2A?",
+    "answerable": true,
+    "expected_answer": "HTTP(S), JSON-RPC 2.0 and SSE.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 13,
+        "evidence": "HTTP(S) as the transport layer, JSON-RPC 2.0 as the messaging format, and Server-Sent Events (SSE) for streaming."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How can A2A deliver updates for long-running tasks?",
+    "answerable": true,
+    "expected_answer": "Polling, SSE-based updates and push notifications.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 13,
+        "evidence": "polling, SSE-based updates, and push notifications"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What three goals form the Agent Communication Trilemma?",
+    "answerable": true,
+    "expected_answer": "Versatility, efficiency and portability.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 15,
+        "evidence": "versatility, efficiency, and portability form the Agent Communication Trilemma"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How does the survey define throughput?",
+    "answerable": true,
+    "expected_answer": "Messages or tasks processed per second.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 20,
+        "evidence": "the number of messages or tasks processed per second"
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What three levels of permission granularity are examples for Role/ACL?",
+    "answerable": true,
+    "expected_answer": "Field-level, endpoint-level and task-level.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 21,
+        "evidence": "field-level, endpoint-level, or task-level"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Why can persistent connections improve transmission efficiency?",
+    "answerable": true,
+    "expected_answer": "They avoid repeated setup and teardown.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 22,
+        "evidence": "persistent connections eliminate the overhead of frequent connection setup and teardown"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the official MCP architecture specification, what relationship does each client have with its server?",
+    "answerable": true,
+    "expected_answer": "One-to-one with a particular server.",
+    "gold": [
+      {
+        "source_id": "mcp-architecture",
+        "page": 1,
+        "evidence": "each client having a 1:1 relationship with a particular server."
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In the official MCP lifecycle specification, which interaction must happen first?",
+    "answerable": true,
+    "expected_answer": "Initialization.",
+    "gold": [
+      {
+        "source_id": "mcp-lifecycle",
+        "page": 1,
+        "evidence": "The initialization phase **MUST** be the first interaction between client and server."
+      }
+    ]
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "question": "What exact default timeout in seconds does the official MCP lifecycle specification require for all outgoing requests?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The lifecycle Timeouts section recommends timeouts for sent requests and per-request configuration, with a maximum even with progress notifications. A corpus-wide search for default timeout and durations of 30/60 seconds found no fixed default."
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "question": "Which SHA-256 checksum must an MCP client include in its initialize request according to the official lifecycle specification?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The lifecycle Initialization section lists protocol version, client capabilities and client implementation information. SHA-256 and checksum are absent across all 30 source units."
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "In the survey’s AITP flight booking example, what three kinds of information does the personal assistant exchange with airline booking agents?",
+    "answerable": true,
+    "expected_answer": "Flight, passenger, and payment information.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 14,
+        "evidence": "exchange flight, passenger, and payment information"
+      }
+    ]
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "What do cognitive alignment and normative alignment mean in the survey’s discussion of human–agent interaction?",
+    "answerable": true,
+    "expected_answer": "Cognitive alignment means intelligible predictions and reasoning. Normative alignment means ethical and accountable interactions.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 16,
+        "evidence": "cognitive alignment (i.e., intelligibility of predictions and reasoning processes) and the normative alignment (i.e., ethical and accountable interactions)"
+      }
+    ]
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "Which three challenges must robot–agent interaction protocols account for while still supporting robust group behaviors?",
+    "answerable": true,
+    "expected_answer": "Uncertain sensor input, partial observability, and limited communication bandwidth.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 17,
+        "evidence": "uncertainties in sensor input, partial observability, and limited communication bandwidth"
+      }
+    ]
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "Which operating system and browser does each agent use in the survey’s cross-browser interoperability example?",
+    "answerable": true,
+    "expected_answer": "One agent uses Windows with Chrome, and the other uses macOS with Safari.",
+    "gold": [
+      {
+        "source_id": "survey-v3",
+        "page": 24,
+        "evidence": "an agent developed on a Windows system using Chrome can communicate with another agent on a macOS system using Safari"
+      }
+    ]
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Under the official MCP lifecycle specification, what must the server do when it supports the protocol version requested by the client, and what must it do otherwise?",
+    "answerable": true,
+    "expected_answer": "Return the requested version if supported; otherwise return another version it supports.",
+    "gold": [
+      {
+        "source_id": "mcp-lifecycle",
+        "page": 1,
+        "evidence": "If the server supports the requested protocol version, it **MUST** respond with the same version. Otherwise, the server **MUST** respond with another protocol version it supports."
+      }
+    ]
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "What exact commercial subscription fee in US dollars does the survey give for operating an ANP node?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The survey discusses ANP architecture, scalability and examples. Corpus search for pricing, USD, dollar and subscription returned only resource-subscription references in MCP Architecture, with no commercial fee."
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "What exact retry interval in seconds does the official MCP lifecycle specification require after an HTTP connection is dropped?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Read the lifecycle HTTP Shutdown, Timeouts and Error Handling sections. They cover closure, timeouts and cancellation. A corpus search for retry interval, Retry-After and backoff found no specified interval."
+  }
+]

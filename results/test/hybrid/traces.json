@@ -1,0 +1,1506 @@
+[
+  {
+    "query_id": "t01",
+    "question": "In the survey’s AITP flight booking example, what three kinds of information does the personal assistant exchange with airline booking agents?",
+    "filter": null,
+    "events": [
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642411-mR9zB7WoqY56NA0tFvMh",
+        "usage": {
+          "prompt_tokens": 185,
+          "completion_tokens": 18,
+          "total_tokens": 203,
+          "cost": 0.0001028,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001028,
+            "upstream_inference_prompt_cost": 7.4e-05,
+            "upstream_inference_completions_cost": 2.88e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1260.410200000024
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "arguments": {
+          "query": "AITP flight booking example personal assistant information exchange with airline booking agents"
+        },
+        "query": "In the survey’s AITP flight booking example, what three kinds of information does the personal assistant exchange with airline booking agents?",
+        "filter": null,
+        "method": "hybrid",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "survey-v3:14:1",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 14,
+            "text": "For example, in a flight booking scenario, a personal assistant agent can use AITP to directly interact with airline booking agents to exchange flight, passenger, and payment information, instead of navigating airline websites. In AITP, agents communicate through Threads, which are transmitted over a Transport layer, and exchange structured data via Capabilities tailored to specific operations.",
+            "metadata": {
+              "end": 880,
+              "start": 483,
+              "document_type": "survey"
+            },
+            "score": 0.03278688524590164,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "survey-v3:27:7",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 27,
+            "text": "1) MCP employs a centralized agent (e.g., travel assistant) that sequentially invokes tools with clear interfaces to accomplish tasks. This approach works efficiently for well-defined workflows but may require central agent modification to adapt to new scenarios. 2) A2A enables collaboration through message/data exchange between specialized agents (e.g., flight, hotel, weather).",
+            "metadata": {
+              "end": 2854,
+              "start": 2473,
+              "document_type": "survey"
+            },
+            "score": 0.03125,
+            "ranks": {
+              "dense": 4,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "survey-v3:14:0",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 14,
+            "text": "progress provides both a technical pathway and conceptual framework for the future development of interoperable multi-agent systems.\n\nAgent Interaction & Transaction Protocol (AITP) (NEAR,2025) The AITP enables AI agents to communicate securely across trust boundaries, while providing extensible mechanisms for structured interactions. It supports autonomous, secure communication, negotiation, and value exchange between agents belonging to different organizations or individuals.",
+            "metadata": {
+              "end": 482,
+              "start": 0,
+              "document_type": "survey"
+            },
+            "score": 0.03076923076923077,
+            "ranks": {
+              "dense": 5,
+              "tfidf": 5
+            }
+          }
+        ],
+        "context": "[survey-v3:14:1 | https://arxiv.org/abs/2504.16736 | page 14]\nFor example, in a flight booking scenario, a personal assistant agent can use AITP to directly interact with airline booking agents to exchange flight, passenger, and payment information, instead of navigating airline websites. In AITP, agents communicate through Threads, which are transmitted over a Transport layer, and exchange structured data via Capabilities tailored to specific operations.\n\n[survey-v3:27:7 | https://arxiv.org/abs/2504.16736 | page 27]\n1) MCP employs a centralized agent (e.g., travel assistant) that sequentially invokes tools with clear interfaces to accomplish tasks. This approach works efficiently for well-defined workflows but may require central agent modification to adapt to new scenarios. 2) A2A enables collaboration through message/data exchange between specialized agents (e.g., flight, hotel, weather).\n\n[survey-v3:14:0 | https://arxiv.org/abs/2504.16736 | page 14]\nprogress provides both a technical pathway and conceptual framework for the future development of interoperable multi-agent systems.\n\nAgent Interaction & Transaction Protocol (AITP) (NEAR,2025) The AITP enables AI agents to communicate securely across trust boundaries, while providing extensible mechanisms for structured interactions. It supports autonomous, secure communication, negotiation, and value exchange between agents belonging to different organizations or individuals.",
+        "context_ids": [
+          "survey-v3:14:1",
+          "survey-v3:27:7",
+          "survey-v3:14:0"
+        ],
+        "elapsed_ms": 0.035200000183976954,
+        "used_precomputed_ranking": true
+      },
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642412-FVIqCjhZmiwG0OIrWtes",
+        "usage": {
+          "prompt_tokens": 511,
+          "completion_tokens": 60,
+          "total_tokens": 571,
+          "cost": 0.0003004,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003004,
+            "upstream_inference_prompt_cost": 0.0002044,
+            "upstream_inference_completions_cost": 9.6e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1196.3181000000986
+      }
+    ],
+    "status": "answered",
+    "context": "[survey-v3:14:1 | https://arxiv.org/abs/2504.16736 | page 14]\nFor example, in a flight booking scenario, a personal assistant agent can use AITP to directly interact with airline booking agents to exchange flight, passenger, and payment information, instead of navigating airline websites. In AITP, agents communicate through Threads, which are transmitted over a Transport layer, and exchange structured data via Capabilities tailored to specific operations.\n\n[survey-v3:27:7 | https://arxiv.org/abs/2504.16736 | page 27]\n1) MCP employs a centralized agent (e.g., travel assistant) that sequentially invokes tools with clear interfaces to accomplish tasks. This approach works efficiently for well-defined workflows but may require central agent modification to adapt to new scenarios. 2) A2A enables collaboration through message/data exchange between specialized agents (e.g., flight, hotel, weather).\n\n[survey-v3:14:0 | https://arxiv.org/abs/2504.16736 | page 14]\nprogress provides both a technical pathway and conceptual framework for the future development of interoperable multi-agent systems.\n\nAgent Interaction & Transaction Protocol (AITP) (NEAR,2025) The AITP enables AI agents to communicate securely across trust boundaries, while providing extensible mechanisms for structured interactions. It supports autonomous, secure communication, negotiation, and value exchange between agents belonging to different organizations or individuals.",
+    "context_ids": [
+      "survey-v3:14:1",
+      "survey-v3:27:7",
+      "survey-v3:14:0"
+    ],
+    "citations": [
+      "survey-v3:14:1"
+    ],
+    "original_retrieval_ms": 77.07619999973758,
+    "original_top3": [
+      {
+        "id": "survey-v3:14:1",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 14,
+        "text": "For example, in a flight booking scenario, a personal assistant agent can use AITP to directly interact with airline booking agents to exchange flight, passenger, and payment information, instead of navigating airline websites. In AITP, agents communicate through Threads, which are transmitted over a Transport layer, and exchange structured data via Capabilities tailored to specific operations.",
+        "metadata": {
+          "end": 880,
+          "start": 483,
+          "document_type": "survey"
+        },
+        "score": 0.03278688524590164,
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "survey-v3:27:7",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "1) MCP employs a centralized agent (e.g., travel assistant) that sequentially invokes tools with clear interfaces to accomplish tasks. This approach works efficiently for well-defined workflows but may require central agent modification to adapt to new scenarios. 2) A2A enables collaboration through message/data exchange between specialized agents (e.g., flight, hotel, weather).",
+        "metadata": {
+          "end": 2854,
+          "start": 2473,
+          "document_type": "survey"
+        },
+        "score": 0.03125,
+        "ranks": {
+          "dense": 4,
+          "tfidf": 4
+        }
+      },
+      {
+        "id": "survey-v3:14:0",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 14,
+        "text": "progress provides both a technical pathway and conceptual framework for the future development of interoperable multi-agent systems.\n\nAgent Interaction & Transaction Protocol (AITP) (NEAR,2025) The AITP enables AI agents to communicate securely across trust boundaries, while providing extensible mechanisms for structured interactions. It supports autonomous, secure communication, negotiation, and value exchange between agents belonging to different organizations or individuals.",
+        "metadata": {
+          "end": 482,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.03076923076923077,
+        "ranks": {
+          "dense": 5,
+          "tfidf": 5
+        }
+      }
+    ],
+    "answer": "In the survey's AITP flight booking example, the personal assistant exchanges three kinds of information with airline booking agents: flight information, passenger information, and payment information. This exchange happens directly between agents using AITP, instead of navigating airline websites [survey-v3:14:1].",
+    "elapsed_ms": 2534.315500000048,
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 78,
+      "cost": 0.0004032
+    },
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t02",
+    "question": "What do cognitive alignment and normative alignment mean in the survey’s discussion of human–agent interaction?",
+    "filter": null,
+    "events": [
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642411-2Nc8m2uPOMkELHapqD9l",
+        "usage": {
+          "prompt_tokens": 178,
+          "completion_tokens": 15,
+          "total_tokens": 193,
+          "cost": 9.52e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.52e-05,
+            "upstream_inference_prompt_cost": 7.12e-05,
+            "upstream_inference_completions_cost": 2.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 922.5266000003103
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "arguments": {
+          "query": "cognitive alignment normative alignment human–agent interaction survey"
+        },
+        "query": "What do cognitive alignment and normative alignment mean in the survey’s discussion of human–agent interaction?",
+        "filter": null,
+        "method": "hybrid",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "survey-v3:16:2",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 16,
+            "text": "This category emphasizes both the cognitive alignment (i.e., intelligibility of predictions and reasoning processes) and the normative alignment (i.e., ethical and accountable interactions) between humans and agents.",
+            "metadata": {
+              "end": 1134,
+              "start": 918,
+              "document_type": "survey"
+            },
+            "score": 0.03278688524590164,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "survey-v3:16:6",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 16,
+            "text": "These experiments demonstrated the protocol’s capability to capture one-way and two-way intelligibility in human-LLM interactions, providing empirical support for its potential in designing effective human-LLM collaborative systems.",
+            "metadata": {
+              "end": 2502,
+              "start": 2270,
+              "document_type": "survey"
+            },
+            "score": 0.029857397504456328,
+            "ranks": {
+              "dense": 6,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "survey-v3:16:1",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 16,
+            "text": "3.2.2.1 Human–Agent Interaction Protocol\n\nHuman–Agent Interaction Protocols are specifically designed to enable meaningful, transparent, and context-aware communication between human users and intelligent agents. In domains where interpretability, collaboration, and ethical decision-making are critical, such protocols provide the necessary structure for aligning machine behavior with human intentions and expectations.",
+            "metadata": {
+              "end": 917,
+              "start": 496,
+              "document_type": "survey"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "tfidf",
+            "ranks": {
+              "tfidf": 2
+            }
+          }
+        ],
+        "context": "[survey-v3:16:2 | https://arxiv.org/abs/2504.16736 | page 16]\nThis category emphasizes both the cognitive alignment (i.e., intelligibility of predictions and reasoning processes) and the normative alignment (i.e., ethical and accountable interactions) between humans and agents.\n\n[survey-v3:16:6 | https://arxiv.org/abs/2504.16736 | page 16]\nThese experiments demonstrated the protocol’s capability to capture one-way and two-way intelligibility in human-LLM interactions, providing empirical support for its potential in designing effective human-LLM collaborative systems.\n\n[survey-v3:16:1 | https://arxiv.org/abs/2504.16736 | page 16]\n3.2.2.1 Human–Agent Interaction Protocol\n\nHuman–Agent Interaction Protocols are specifically designed to enable meaningful, transparent, and context-aware communication between human users and intelligent agents. In domains where interpretability, collaboration, and ethical decision-making are critical, such protocols provide the necessary structure for aligning machine behavior with human intentions and expectations.",
+        "context_ids": [
+          "survey-v3:16:2",
+          "survey-v3:16:6",
+          "survey-v3:16:1"
+        ],
+        "elapsed_ms": 0.04659999967771,
+        "used_precomputed_ranking": true
+      },
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642412-CWjsGoorS8lac75G7tjm",
+        "usage": {
+          "prompt_tokens": 425,
+          "completion_tokens": 83,
+          "total_tokens": 508,
+          "cost": 0.0003028,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003028,
+            "upstream_inference_prompt_cost": 0.00017,
+            "upstream_inference_completions_cost": 0.0001328
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1382.8005000000303
+      }
+    ],
+    "status": "answered",
+    "context": "[survey-v3:16:2 | https://arxiv.org/abs/2504.16736 | page 16]\nThis category emphasizes both the cognitive alignment (i.e., intelligibility of predictions and reasoning processes) and the normative alignment (i.e., ethical and accountable interactions) between humans and agents.\n\n[survey-v3:16:6 | https://arxiv.org/abs/2504.16736 | page 16]\nThese experiments demonstrated the protocol’s capability to capture one-way and two-way intelligibility in human-LLM interactions, providing empirical support for its potential in designing effective human-LLM collaborative systems.\n\n[survey-v3:16:1 | https://arxiv.org/abs/2504.16736 | page 16]\n3.2.2.1 Human–Agent Interaction Protocol\n\nHuman–Agent Interaction Protocols are specifically designed to enable meaningful, transparent, and context-aware communication between human users and intelligent agents. In domains where interpretability, collaboration, and ethical decision-making are critical, such protocols provide the necessary structure for aligning machine behavior with human intentions and expectations.",
+    "context_ids": [
+      "survey-v3:16:2",
+      "survey-v3:16:6",
+      "survey-v3:16:1"
+    ],
+    "citations": [
+      "survey-v3:16:2",
+      "survey-v3:16:1"
+    ],
+    "original_retrieval_ms": 70.27540000035515,
+    "original_top3": [
+      {
+        "id": "survey-v3:16:2",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 16,
+        "text": "This category emphasizes both the cognitive alignment (i.e., intelligibility of predictions and reasoning processes) and the normative alignment (i.e., ethical and accountable interactions) between humans and agents.",
+        "metadata": {
+          "end": 1134,
+          "start": 918,
+          "document_type": "survey"
+        },
+        "score": 0.03278688524590164,
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "survey-v3:16:6",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 16,
+        "text": "These experiments demonstrated the protocol’s capability to capture one-way and two-way intelligibility in human-LLM interactions, providing empirical support for its potential in designing effective human-LLM collaborative systems.",
+        "metadata": {
+          "end": 2502,
+          "start": 2270,
+          "document_type": "survey"
+        },
+        "score": 0.029857397504456328,
+        "ranks": {
+          "dense": 6,
+          "tfidf": 8
+        }
+      },
+      {
+        "id": "survey-v3:16:1",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 16,
+        "text": "3.2.2.1 Human–Agent Interaction Protocol\n\nHuman–Agent Interaction Protocols are specifically designed to enable meaningful, transparent, and context-aware communication between human users and intelligent agents. In domains where interpretability, collaboration, and ethical decision-making are critical, such protocols provide the necessary structure for aligning machine behavior with human intentions and expectations.",
+        "metadata": {
+          "end": 917,
+          "start": 496,
+          "document_type": "survey"
+        },
+        "score": 0.016129032258064516,
+        "strategy": "tfidf",
+        "ranks": {
+          "tfidf": 2
+        }
+      }
+    ],
+    "answer": "In the survey's discussion of human–agent interaction, cognitive alignment refers to the intelligibility of predictions and reasoning processes between humans and agents. Normative alignment refers to ethical and accountable interactions between humans and agents. Together, these alignments emphasize meaningful, transparent, and context-aware communication that aligns machine behavior with human intentions and expectations [survey-v3:16:2][survey-v3:16:1].",
+    "elapsed_ms": 2376.144000000295,
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 98,
+      "cost": 0.00039799999999999997
+    },
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t03",
+    "question": "Which three challenges must robot–agent interaction protocols account for while still supporting robust group behaviors?",
+    "filter": null,
+    "events": [
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642411-Ry6kjWPCn18W25J06KXL",
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 15,
+          "total_tokens": 192,
+          "cost": 9.48e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.48e-05,
+            "upstream_inference_prompt_cost": 7.08e-05,
+            "upstream_inference_completions_cost": 2.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1081.9553000001179
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "arguments": {
+          "query": "challenges robot–agent interaction protocols robust group behaviors"
+        },
+        "query": "Which three challenges must robot–agent interaction protocols account for while still supporting robust group behaviors?",
+        "filter": null,
+        "method": "hybrid",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "survey-v3:17:1",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 17,
+            "text": "Robot–Agent Interaction Protocols address the challenges of coordination, perception, and spatial reasoning in physical environments where intelligent agents—particularly embodied robots—must interact with one another and with dynamic surroundings. These protocols are essential for enabling distributed decision-making, real-time environmental adaptation, and safe navigation in complex multi-agent systems.",
+            "metadata": {
+              "end": 885,
+              "start": 477,
+              "document_type": "survey"
+            },
+            "score": 0.03252247488101534,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "survey-v3:17:2",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 17,
+            "text": "They must account for uncertainties in sensor input, partial observability, and limited communication bandwidth while still supporting robust group behaviors. In this section, we present two representative approaches: the CrowdES protocol, which focuses on simulating and adapting to realistic crowd dynamics in robot-populated environments, and the Spatial Population Protocols, which offer distributed solutions for achieving geometric consensus among anonymous robotic agents in decentralized",
+            "metadata": {
+              "end": 1381,
+              "start": 886,
+              "document_type": "survey"
+            },
+            "score": 0.03252247488101534,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "survey-v3:15:10",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 15,
+            "text": "Domain-specific protocols serve as tailored communication and coordination mechanisms that govern interactions between intelligent agents and their counterparts across distinct operational domains. These protocols are designed to address the unique requirements and constraints of each interaction context, ensuring robust, interpretable, and ethically aligned behavior. In this section, we categorize domain-specific protocols into three primary branches: (1) Human–Agent Interaction",
+            "metadata": {
+              "end": 4336,
+              "start": 3852,
+              "document_type": "survey"
+            },
+            "score": 0.03149801587301587,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          }
+        ],
+        "context": "[survey-v3:17:1 | https://arxiv.org/abs/2504.16736 | page 17]\nRobot–Agent Interaction Protocols address the challenges of coordination, perception, and spatial reasoning in physical environments where intelligent agents—particularly embodied robots—must interact with one another and with dynamic surroundings. These protocols are essential for enabling distributed decision-making, real-time environmental adaptation, and safe navigation in complex multi-agent systems.\n\n[survey-v3:17:2 | https://arxiv.org/abs/2504.16736 | page 17]\nThey must account for uncertainties in sensor input, partial observability, and limited communication bandwidth while still supporting robust group behaviors. In this section, we present two representative approaches: the CrowdES protocol, which focuses on simulating and adapting to realistic crowd dynamics in robot-populated environments, and the Spatial Population Protocols, which offer distributed solutions for achieving geometric consensus among anonymous robotic agents in decentralized\n\n[survey-v3:15:10 | https://arxiv.org/abs/2504.16736 | page 15]\nDomain-specific protocols serve as tailored communication and coordination mechanisms that govern interactions between intelligent agents and their counterparts across distinct operational domains. These protocols are designed to address the unique requirements and constraints of each interaction context, ensuring robust, interpretable, and ethically aligned behavior. In this section, we categorize domain-specific protocols into three primary branches: (1) Human–Agent Interaction",
+        "context_ids": [
+          "survey-v3:17:1",
+          "survey-v3:17:2",
+          "survey-v3:15:10"
+        ],
+        "elapsed_ms": 0.016900000446185004,
+        "used_precomputed_ranking": true
+      },
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642412-pIsIL6ojj25tuMmvvLYt",
+        "usage": {
+          "prompt_tokens": 490,
+          "completion_tokens": 89,
+          "total_tokens": 579,
+          "cost": 0.0003384,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003384,
+            "upstream_inference_prompt_cost": 0.000196,
+            "upstream_inference_completions_cost": 0.0001424
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1463.193599999613
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "status": "abstain",
+    "context": "[survey-v3:17:1 | https://arxiv.org/abs/2504.16736 | page 17]\nRobot–Agent Interaction Protocols address the challenges of coordination, perception, and spatial reasoning in physical environments where intelligent agents—particularly embodied robots—must interact with one another and with dynamic surroundings. These protocols are essential for enabling distributed decision-making, real-time environmental adaptation, and safe navigation in complex multi-agent systems.\n\n[survey-v3:17:2 | https://arxiv.org/abs/2504.16736 | page 17]\nThey must account for uncertainties in sensor input, partial observability, and limited communication bandwidth while still supporting robust group behaviors. In this section, we present two representative approaches: the CrowdES protocol, which focuses on simulating and adapting to realistic crowd dynamics in robot-populated environments, and the Spatial Population Protocols, which offer distributed solutions for achieving geometric consensus among anonymous robotic agents in decentralized\n\n[survey-v3:15:10 | https://arxiv.org/abs/2504.16736 | page 15]\nDomain-specific protocols serve as tailored communication and coordination mechanisms that govern interactions between intelligent agents and their counterparts across distinct operational domains. These protocols are designed to address the unique requirements and constraints of each interaction context, ensuring robust, interpretable, and ethically aligned behavior. In this section, we categorize domain-specific protocols into three primary branches: (1) Human–Agent Interaction",
+    "context_ids": [
+      "survey-v3:17:1",
+      "survey-v3:17:2",
+      "survey-v3:15:10"
+    ],
+    "citations": [],
+    "original_retrieval_ms": 61.416300000018964,
+    "original_top3": [
+      {
+        "id": "survey-v3:17:1",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 17,
+        "text": "Robot–Agent Interaction Protocols address the challenges of coordination, perception, and spatial reasoning in physical environments where intelligent agents—particularly embodied robots—must interact with one another and with dynamic surroundings. These protocols are essential for enabling distributed decision-making, real-time environmental adaptation, and safe navigation in complex multi-agent systems.",
+        "metadata": {
+          "end": 885,
+          "start": 477,
+          "document_type": "survey"
+        },
+        "score": 0.03252247488101534,
+        "ranks": {
+          "dense": 1,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "survey-v3:17:2",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 17,
+        "text": "They must account for uncertainties in sensor input, partial observability, and limited communication bandwidth while still supporting robust group behaviors. In this section, we present two representative approaches: the CrowdES protocol, which focuses on simulating and adapting to realistic crowd dynamics in robot-populated environments, and the Spatial Population Protocols, which offer distributed solutions for achieving geometric consensus among anonymous robotic agents in decentralized",
+        "metadata": {
+          "end": 1381,
+          "start": 886,
+          "document_type": "survey"
+        },
+        "score": 0.03252247488101534,
+        "ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "survey-v3:15:10",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "Domain-specific protocols serve as tailored communication and coordination mechanisms that govern interactions between intelligent agents and their counterparts across distinct operational domains. These protocols are designed to address the unique requirements and constraints of each interaction context, ensuring robust, interpretable, and ethically aligned behavior. In this section, we categorize domain-specific protocols into three primary branches: (1) Human–Agent Interaction",
+        "metadata": {
+          "end": 4336,
+          "start": 3852,
+          "document_type": "survey"
+        },
+        "score": 0.03149801587301587,
+        "ranks": {
+          "dense": 3,
+          "tfidf": 4
+        }
+      }
+    ],
+    "answer": "INSUFFICIENT_EVIDENCE",
+    "rejected_answer": "The three challenges that robot–agent interaction protocols must account for while still supporting robust group behaviors are:\n\n1. Uncertainties in sensor input\n2. Partial observability\n3. Limited communication bandwidth\n\nThese challenges arise in physical environments where intelligent agents, especially embodied robots, interact with each other and dynamic surroundings, requiring coordination, perception, and spatial reasoning [survey-v3:17:1, survey-v3:17:2].",
+    "elapsed_ms": 2606.7705999998907,
+    "usage": {
+      "prompt_tokens": 667,
+      "completion_tokens": 104,
+      "cost": 0.0004332
+    },
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t04",
+    "question": "Which operating system and browser does each agent use in the survey’s cross-browser interoperability example?",
+    "filter": null,
+    "events": [
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642411-zp1a59QZZnCUuYhCYwcN",
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 13,
+          "total_tokens": 190,
+          "cost": 9.16e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.16e-05,
+            "upstream_inference_prompt_cost": 7.08e-05,
+            "upstream_inference_completions_cost": 2.08e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 993.5772999997425
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "arguments": {
+          "query": "survey cross-browser interoperability example operating system browser"
+        },
+        "query": "Which operating system and browser does each agent use in the survey’s cross-browser interoperability example?",
+        "filter": null,
+        "method": "hybrid",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "survey-v3:24:1",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 24,
+            "text": "Cross-System and Cross-Browser Compatibility Agent Protocol ensures seamless communication between agents running on different operating systems (e.g., Windows, macOS, Linux) and browsers (e.g., Chrome, Firefox, Safari). It provides standardized APIs and communication interfaces that abstract away underlying platform differences. This allows agents to interact using uniform protocols and data formats regardless of the operating system or browser environment.",
+            "metadata": {
+              "end": 770,
+              "start": 308,
+              "document_type": "survey"
+            },
+            "score": 0.03278688524590164,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "survey-v3:24:2",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 24,
+            "text": "For instance, an agent developed on a Windows system using Chrome can communicate with another agent on a macOS system using Safari. This cross-system and cross-browser compatibility eliminates the need for agents to adapt to specific platform characteristics, enabling broad interoperability.",
+            "metadata": {
+              "end": 1064,
+              "start": 771,
+              "document_type": "survey"
+            },
+            "score": 0.03225806451612903,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "survey-v3:18:1",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 18,
+            "text": "Notably, the Language Model Operating System (LMOS) offers a comprehensive framework for building and operating multi-agent systems, emphasizing openness and scalability. The agents.json specification introduces a standardized, machine-readable format for declaring AI-compatible interfaces and workflows, facilitating seamless integration between traditional APIs and AI agents.",
+            "metadata": {
+              "end": 737,
+              "start": 358,
+              "document_type": "survey"
+            },
+            "score": 0.031024531024531024,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 6
+            }
+          }
+        ],
+        "context": "[survey-v3:24:1 | https://arxiv.org/abs/2504.16736 | page 24]\nCross-System and Cross-Browser Compatibility Agent Protocol ensures seamless communication between agents running on different operating systems (e.g., Windows, macOS, Linux) and browsers (e.g., Chrome, Firefox, Safari). It provides standardized APIs and communication interfaces that abstract away underlying platform differences. This allows agents to interact using uniform protocols and data formats regardless of the operating system or browser environment.\n\n[survey-v3:24:2 | https://arxiv.org/abs/2504.16736 | page 24]\nFor instance, an agent developed on a Windows system using Chrome can communicate with another agent on a macOS system using Safari. This cross-system and cross-browser compatibility eliminates the need for agents to adapt to specific platform characteristics, enabling broad interoperability.\n\n[survey-v3:18:1 | https://arxiv.org/abs/2504.16736 | page 18]\nNotably, the Language Model Operating System (LMOS) offers a comprehensive framework for building and operating multi-agent systems, emphasizing openness and scalability. The agents.json specification introduces a standardized, machine-readable format for declaring AI-compatible interfaces and workflows, facilitating seamless integration between traditional APIs and AI agents.",
+        "context_ids": [
+          "survey-v3:24:1",
+          "survey-v3:24:2",
+          "survey-v3:18:1"
+        ],
+        "elapsed_ms": 0.019800000245595584,
+        "used_precomputed_ranking": true
+      },
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642412-JMiDpQ9fwCVbqdQMYOva",
+        "usage": {
+          "prompt_tokens": 458,
+          "completion_tokens": 71,
+          "total_tokens": 529,
+          "cost": 0.0002968,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0002968,
+            "upstream_inference_prompt_cost": 0.0001832,
+            "upstream_inference_completions_cost": 0.0001136
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1322.3712000003616
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "status": "abstain",
+    "context": "[survey-v3:24:1 | https://arxiv.org/abs/2504.16736 | page 24]\nCross-System and Cross-Browser Compatibility Agent Protocol ensures seamless communication between agents running on different operating systems (e.g., Windows, macOS, Linux) and browsers (e.g., Chrome, Firefox, Safari). It provides standardized APIs and communication interfaces that abstract away underlying platform differences. This allows agents to interact using uniform protocols and data formats regardless of the operating system or browser environment.\n\n[survey-v3:24:2 | https://arxiv.org/abs/2504.16736 | page 24]\nFor instance, an agent developed on a Windows system using Chrome can communicate with another agent on a macOS system using Safari. This cross-system and cross-browser compatibility eliminates the need for agents to adapt to specific platform characteristics, enabling broad interoperability.\n\n[survey-v3:18:1 | https://arxiv.org/abs/2504.16736 | page 18]\nNotably, the Language Model Operating System (LMOS) offers a comprehensive framework for building and operating multi-agent systems, emphasizing openness and scalability. The agents.json specification introduces a standardized, machine-readable format for declaring AI-compatible interfaces and workflows, facilitating seamless integration between traditional APIs and AI agents.",
+    "context_ids": [
+      "survey-v3:24:1",
+      "survey-v3:24:2",
+      "survey-v3:18:1"
+    ],
+    "citations": [],
+    "original_retrieval_ms": 69.50890000007348,
+    "original_top3": [
+      {
+        "id": "survey-v3:24:1",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 24,
+        "text": "Cross-System and Cross-Browser Compatibility Agent Protocol ensures seamless communication between agents running on different operating systems (e.g., Windows, macOS, Linux) and browsers (e.g., Chrome, Firefox, Safari). It provides standardized APIs and communication interfaces that abstract away underlying platform differences. This allows agents to interact using uniform protocols and data formats regardless of the operating system or browser environment.",
+        "metadata": {
+          "end": 770,
+          "start": 308,
+          "document_type": "survey"
+        },
+        "score": 0.03278688524590164,
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "survey-v3:24:2",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 24,
+        "text": "For instance, an agent developed on a Windows system using Chrome can communicate with another agent on a macOS system using Safari. This cross-system and cross-browser compatibility eliminates the need for agents to adapt to specific platform characteristics, enabling broad interoperability.",
+        "metadata": {
+          "end": 1064,
+          "start": 771,
+          "document_type": "survey"
+        },
+        "score": 0.03225806451612903,
+        "ranks": {
+          "dense": 2,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "survey-v3:18:1",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 18,
+        "text": "Notably, the Language Model Operating System (LMOS) offers a comprehensive framework for building and operating multi-agent systems, emphasizing openness and scalability. The agents.json specification introduces a standardized, machine-readable format for declaring AI-compatible interfaces and workflows, facilitating seamless integration between traditional APIs and AI agents.",
+        "metadata": {
+          "end": 737,
+          "start": 358,
+          "document_type": "survey"
+        },
+        "score": 0.031024531024531024,
+        "ranks": {
+          "dense": 3,
+          "tfidf": 6
+        }
+      }
+    ],
+    "answer": "INSUFFICIENT_EVIDENCE",
+    "rejected_answer": "In the survey's cross-browser interoperability example, one agent uses a Windows operating system with the Chrome browser, while the other agent uses a macOS operating system with the Safari browser. This example illustrates how agents on different operating systems and browsers can communicate seamlessly using standardized APIs and communication interfaces [survey-v3:24:1, 24:2].",
+    "elapsed_ms": 2385.6987999997727,
+    "usage": {
+      "prompt_tokens": 635,
+      "completion_tokens": 84,
+      "cost": 0.0003884
+    },
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t05",
+    "question": "Under the official MCP lifecycle specification, what must the server do when it supports the protocol version requested by the client, and what must it do otherwise?",
+    "filter": {
+      "document_type": "specification"
+    },
+    "events": [
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642411-tIb70vR8pgZpnF6dVK0M",
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 15,
+          "total_tokens": 204,
+          "cost": 9.96e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.96e-05,
+            "upstream_inference_prompt_cost": 7.56e-05,
+            "upstream_inference_completions_cost": 2.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1035.3230000000622
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "arguments": {
+          "query": "MCP lifecycle specification server behavior on protocol version support"
+        },
+        "query": "Under the official MCP lifecycle specification, what must the server do when it supports the protocol version requested by the client, and what must it do otherwise?",
+        "filter": {
+          "document_type": "specification"
+        },
+        "method": "hybrid",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "mcp-lifecycle:1:5",
+            "source_id": "mcp-lifecycle",
+            "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+            "page": 1,
+            "text": "If the server supports the requested protocol version, it **MUST** respond with the same version. Otherwise, the server **MUST** respond with another protocol version it supports. This **SHOULD** be the _latest_ version supported by the server.\n\nIf the client does not support the version in the server's response, it **SHOULD** disconnect.\n\n#### Capability Negotiation\n\nClient and server capabilities establish which optional protocol features will be available during the session.",
+            "metadata": {
+              "end": 2389,
+              "start": 1907,
+              "document_type": "specification"
+            },
+            "score": 0.03278688524590164,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "mcp-lifecycle:1:0",
+            "source_id": "mcp-lifecycle",
+            "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+            "page": 1,
+            "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+            "metadata": {
+              "end": 379,
+              "start": 0,
+              "document_type": "specification"
+            },
+            "score": 0.0315136476426799,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "mcp-lifecycle:1:1",
+            "source_id": "mcp-lifecycle",
+            "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+            "page": 1,
+            "text": "The initialization phase **MUST** be the first interaction between client and server. During this phase, the client and server:\n\n- Establish protocol version compatibility - Exchange and negotiate capabilities - Share implementation details\n\nThe client **MUST** initiate this phase by sending an `initialize` request containing:\n\n- Protocol version supported - Client capabilities - Client implementation information",
+            "metadata": {
+              "end": 797,
+              "start": 381,
+              "document_type": "specification"
+            },
+            "score": 0.031024531024531024,
+            "ranks": {
+              "dense": 6,
+              "tfidf": 3
+            }
+          }
+        ],
+        "context": "[mcp-lifecycle:1:5 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nIf the server supports the requested protocol version, it **MUST** respond with the same version. Otherwise, the server **MUST** respond with another protocol version it supports. This **SHOULD** be the _latest_ version supported by the server.\n\nIf the client does not support the version in the server's response, it **SHOULD** disconnect.\n\n#### Capability Negotiation\n\nClient and server capabilities establish which optional protocol features will be available during the session.\n\n[mcp-lifecycle:1:0 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nThe Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization\n\n[mcp-lifecycle:1:1 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nThe initialization phase **MUST** be the first interaction between client and server. During this phase, the client and server:\n\n- Establish protocol version compatibility - Exchange and negotiate capabilities - Share implementation details\n\nThe client **MUST** initiate this phase by sending an `initialize` request containing:\n\n- Protocol version supported - Client capabilities - Client implementation information",
+        "context_ids": [
+          "mcp-lifecycle:1:5",
+          "mcp-lifecycle:1:0",
+          "mcp-lifecycle:1:1"
+        ],
+        "elapsed_ms": 0.020500000118772732,
+        "used_precomputed_ranking": true
+      },
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642412-pnuZXViuw0m85oCh8TQd",
+        "usage": {
+          "prompt_tokens": 632,
+          "completion_tokens": 100,
+          "total_tokens": 732,
+          "cost": 0.0004128,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0004128,
+            "upstream_inference_prompt_cost": 0.0002528,
+            "upstream_inference_completions_cost": 0.00016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1468.1202000001576
+      }
+    ],
+    "status": "answered",
+    "context": "[mcp-lifecycle:1:5 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nIf the server supports the requested protocol version, it **MUST** respond with the same version. Otherwise, the server **MUST** respond with another protocol version it supports. This **SHOULD** be the _latest_ version supported by the server.\n\nIf the client does not support the version in the server's response, it **SHOULD** disconnect.\n\n#### Capability Negotiation\n\nClient and server capabilities establish which optional protocol features will be available during the session.\n\n[mcp-lifecycle:1:0 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nThe Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization\n\n[mcp-lifecycle:1:1 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nThe initialization phase **MUST** be the first interaction between client and server. During this phase, the client and server:\n\n- Establish protocol version compatibility - Exchange and negotiate capabilities - Share implementation details\n\nThe client **MUST** initiate this phase by sending an `initialize` request containing:\n\n- Protocol version supported - Client capabilities - Client implementation information",
+    "context_ids": [
+      "mcp-lifecycle:1:5",
+      "mcp-lifecycle:1:0",
+      "mcp-lifecycle:1:1"
+    ],
+    "citations": [
+      "mcp-lifecycle:1:5"
+    ],
+    "original_retrieval_ms": 47.13549999996758,
+    "original_top3": [
+      {
+        "id": "mcp-lifecycle:1:5",
+        "source_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "If the server supports the requested protocol version, it **MUST** respond with the same version. Otherwise, the server **MUST** respond with another protocol version it supports. This **SHOULD** be the _latest_ version supported by the server.\n\nIf the client does not support the version in the server's response, it **SHOULD** disconnect.\n\n#### Capability Negotiation\n\nClient and server capabilities establish which optional protocol features will be available during the session.",
+        "metadata": {
+          "end": 2389,
+          "start": 1907,
+          "document_type": "specification"
+        },
+        "score": 0.03278688524590164,
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "mcp-lifecycle:1:0",
+        "source_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.0315136476426799,
+        "ranks": {
+          "dense": 2,
+          "tfidf": 5
+        }
+      },
+      {
+        "id": "mcp-lifecycle:1:1",
+        "source_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The initialization phase **MUST** be the first interaction between client and server. During this phase, the client and server:\n\n- Establish protocol version compatibility - Exchange and negotiate capabilities - Share implementation details\n\nThe client **MUST** initiate this phase by sending an `initialize` request containing:\n\n- Protocol version supported - Client capabilities - Client implementation information",
+        "metadata": {
+          "end": 797,
+          "start": 381,
+          "document_type": "specification"
+        },
+        "score": 0.031024531024531024,
+        "ranks": {
+          "dense": 6,
+          "tfidf": 3
+        }
+      }
+    ],
+    "answer": "Under the official MCP lifecycle specification, when the server supports the protocol version requested by the client, it **MUST** respond with the same version. If the server does not support the requested version, it **MUST** respond with another protocol version it supports, which **SHOULD** be the latest version supported by the server. If the client does not support the version in the server's response, it **SHOULD** disconnect [mcp-lifecycle:1:5].",
+    "elapsed_ms": 2551.017899999806,
+    "usage": {
+      "prompt_tokens": 821,
+      "completion_tokens": 115,
+      "cost": 0.0005124
+    },
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t06",
+    "question": "What exact commercial subscription fee in US dollars does the survey give for operating an ANP node?",
+    "filter": null,
+    "events": [
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642411-s0vz7JsLz4xnNpamfT1i",
+        "usage": {
+          "prompt_tokens": 178,
+          "completion_tokens": 14,
+          "total_tokens": 192,
+          "cost": 9.36e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.36e-05,
+            "upstream_inference_prompt_cost": 7.12e-05,
+            "upstream_inference_completions_cost": 2.24e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1130.2511999997478
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "arguments": {
+          "query": "commercial subscription fee for operating an ANP node"
+        },
+        "query": "What exact commercial subscription fee in US dollars does the survey give for operating an ANP node?",
+        "filter": null,
+        "method": "hybrid",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "mcp-architecture:1:9",
+            "source_id": "mcp-architecture",
+            "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+            "page": 1,
+            "text": "- Implemented [server features](/specification/2025-03-26/server) must be advertised in the server's capabilities - Emitting resource subscription notifications requires the server to declare subscription support - Tool invocation requires the server to declare tool capabilities - [Sampling](/specification/2025-03-26/client/sampling) requires the client to declare support in its capabilities",
+            "metadata": {
+              "end": 3921,
+              "start": 3527,
+              "document_type": "specification"
+            },
+            "score": 0.031754032258064516,
+            "ranks": {
+              "dense": 4,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "survey-v3:27:2",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 27,
+            "text": "ANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for structured requests and responses between agents.",
+            "metadata": {
+              "end": 994,
+              "start": 735,
+              "document_type": "survey"
+            },
+            "score": 0.031024531024531024,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "survey-v3:13:0",
+            "source_id": "survey-v3",
+            "source": "https://arxiv.org/abs/2504.16736",
+            "page": 13,
+            "text": "utilizing the required interfaces, constructing properly formatted requests, appending authentication credentials, sending the requests, and finally processes the corresponding responses. In terms of the significance of ANP, it introduces an innovative solution for agent network communication, marking the creative concept of the Internet of Agents.",
+            "metadata": {
+              "end": 350,
+              "start": 0,
+              "document_type": "survey"
+            },
+            "score": 0.030621785881252923,
+            "ranks": {
+              "dense": 2,
+              "tfidf": 9
+            }
+          }
+        ],
+        "context": "[mcp-architecture:1:9 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx | page 1]\n- Implemented [server features](/specification/2025-03-26/server) must be advertised in the server's capabilities - Emitting resource subscription notifications requires the server to declare subscription support - Tool invocation requires the server to declare tool capabilities - [Sampling](/specification/2025-03-26/client/sampling) requires the client to declare support in its capabilities\n\n[survey-v3:27:2 | https://arxiv.org/abs/2504.16736 | page 27]\nANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for structured requests and responses between agents.\n\n[survey-v3:13:0 | https://arxiv.org/abs/2504.16736 | page 13]\nutilizing the required interfaces, constructing properly formatted requests, appending authentication credentials, sending the requests, and finally processes the corresponding responses. In terms of the significance of ANP, it introduces an innovative solution for agent network communication, marking the creative concept of the Internet of Agents.",
+        "context_ids": [
+          "mcp-architecture:1:9",
+          "survey-v3:27:2",
+          "survey-v3:13:0"
+        ],
+        "elapsed_ms": 0.015900000107649248,
+        "used_precomputed_ranking": true
+      },
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642412-Js8c80CjCkoBDUFcIeJO",
+        "usage": {
+          "prompt_tokens": 490,
+          "completion_tokens": 8,
+          "total_tokens": 498,
+          "cost": 0.0002088,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0002088,
+            "upstream_inference_prompt_cost": 0.000196,
+            "upstream_inference_completions_cost": 1.28e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1103.3821999999418
+      }
+    ],
+    "status": "abstain",
+    "context": "[mcp-architecture:1:9 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx | page 1]\n- Implemented [server features](/specification/2025-03-26/server) must be advertised in the server's capabilities - Emitting resource subscription notifications requires the server to declare subscription support - Tool invocation requires the server to declare tool capabilities - [Sampling](/specification/2025-03-26/client/sampling) requires the client to declare support in its capabilities\n\n[survey-v3:27:2 | https://arxiv.org/abs/2504.16736 | page 27]\nANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for structured requests and responses between agents.\n\n[survey-v3:13:0 | https://arxiv.org/abs/2504.16736 | page 13]\nutilizing the required interfaces, constructing properly formatted requests, appending authentication credentials, sending the requests, and finally processes the corresponding responses. In terms of the significance of ANP, it introduces an innovative solution for agent network communication, marking the creative concept of the Internet of Agents.",
+    "context_ids": [
+      "mcp-architecture:1:9",
+      "survey-v3:27:2",
+      "survey-v3:13:0"
+    ],
+    "citations": [],
+    "original_retrieval_ms": 62.74139999959516,
+    "original_top3": [
+      {
+        "id": "mcp-architecture:1:9",
+        "source_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "- Implemented [server features](/specification/2025-03-26/server) must be advertised in the server's capabilities - Emitting resource subscription notifications requires the server to declare subscription support - Tool invocation requires the server to declare tool capabilities - [Sampling](/specification/2025-03-26/client/sampling) requires the client to declare support in its capabilities",
+        "metadata": {
+          "end": 3921,
+          "start": 3527,
+          "document_type": "specification"
+        },
+        "score": 0.031754032258064516,
+        "ranks": {
+          "dense": 4,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "survey-v3:27:2",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "ANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for structured requests and responses between agents.",
+        "metadata": {
+          "end": 994,
+          "start": 735,
+          "document_type": "survey"
+        },
+        "score": 0.031024531024531024,
+        "ranks": {
+          "dense": 3,
+          "tfidf": 6
+        }
+      },
+      {
+        "id": "survey-v3:13:0",
+        "source_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "utilizing the required interfaces, constructing properly formatted requests, appending authentication credentials, sending the requests, and finally processes the corresponding responses. In terms of the significance of ANP, it introduces an innovative solution for agent network communication, marking the creative concept of the Internet of Agents.",
+        "metadata": {
+          "end": 350,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.030621785881252923,
+        "ranks": {
+          "dense": 2,
+          "tfidf": 9
+        }
+      }
+    ],
+    "answer": "INSUFFICIENT_EVIDENCE",
+    "elapsed_ms": 2296.7509000000064,
+    "usage": {
+      "prompt_tokens": 668,
+      "completion_tokens": 22,
+      "cost": 0.0003024
+    },
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "t07",
+    "question": "What exact retry interval in seconds does the official MCP lifecycle specification require after an HTTP connection is dropped?",
+    "filter": {
+      "document_type": "specification"
+    },
+    "events": [
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642413-Q6o0Rvy2SBjWjHIha3jg",
+        "usage": {
+          "prompt_tokens": 179,
+          "completion_tokens": 15,
+          "total_tokens": 194,
+          "cost": 9.56e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.56e-05,
+            "upstream_inference_prompt_cost": 7.16e-05,
+            "upstream_inference_completions_cost": 2.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1121.9977000000654
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "arguments": {
+          "query": "MCP lifecycle specification retry interval after HTTP connection drop"
+        },
+        "query": "What exact retry interval in seconds does the official MCP lifecycle specification require after an HTTP connection is dropped?",
+        "filter": {
+          "document_type": "specification"
+        },
+        "method": "hybrid",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "mcp-lifecycle:1:0",
+            "source_id": "mcp-lifecycle",
+            "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+            "page": 1,
+            "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+            "metadata": {
+              "end": 379,
+              "start": 0,
+              "document_type": "specification"
+            },
+            "score": 0.03278688524590164,
+            "ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "mcp-lifecycle:1:11",
+            "source_id": "mcp-lifecycle",
+            "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+            "page": 1,
+            "text": "For HTTP [transports](/specification/2025-03-26/basic/transports), shutdown is indicated by closing the associated HTTP connection(s).\n\n## Timeouts\n\nImplementations **SHOULD** establish timeouts for all sent requests, to prevent hung connections and resource exhaustion.",
+            "metadata": {
+              "end": 4980,
+              "start": 4710,
+              "document_type": "specification"
+            },
+            "score": 0.03200204813108039,
+            "ranks": {
+              "dense": 3,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "mcp-lifecycle:1:10",
+            "source_id": "mcp-lifecycle",
+            "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+            "page": 1,
+            "text": "1. First, closing the input stream to the child process (the server) 2. Waiting for the server to exit, or sending `SIGTERM` if the server does not exit within a reasonable time 3. Sending `SIGKILL` if the server does not exit within a reasonable time after `SIGTERM`\n\nThe server **MAY** initiate shutdown by closing its output stream to the client and exiting.\n\n#### HTTP",
+            "metadata": {
+              "end": 4708,
+              "start": 4336,
+              "document_type": "specification"
+            },
+            "score": 0.030798389007344232,
+            "ranks": {
+              "dense": 7,
+              "tfidf": 3
+            }
+          }
+        ],
+        "context": "[mcp-lifecycle:1:0 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nThe Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization\n\n[mcp-lifecycle:1:11 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nFor HTTP [transports](/specification/2025-03-26/basic/transports), shutdown is indicated by closing the associated HTTP connection(s).\n\n## Timeouts\n\nImplementations **SHOULD** establish timeouts for all sent requests, to prevent hung connections and resource exhaustion.\n\n[mcp-lifecycle:1:10 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\n1. First, closing the input stream to the child process (the server) 2. Waiting for the server to exit, or sending `SIGTERM` if the server does not exit within a reasonable time 3. Sending `SIGKILL` if the server does not exit within a reasonable time after `SIGTERM`\n\nThe server **MAY** initiate shutdown by closing its output stream to the client and exiting.\n\n#### HTTP",
+        "context_ids": [
+          "mcp-lifecycle:1:0",
+          "mcp-lifecycle:1:11",
+          "mcp-lifecycle:1:10"
+        ],
+        "elapsed_ms": 0.021500000002561137,
+        "used_precomputed_ranking": true
+      },
+      {
+        "event": "model",
+        "model": "openai/gpt-4.1-mini",
+        "provider": "OpenAI",
+        "id": "gen-1794642414-xylmmuOrvSSeDdURt1gs",
+        "usage": {
+          "prompt_tokens": 602,
+          "completion_tokens": 49,
+          "total_tokens": 651,
+          "cost": 0.0003192,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003192,
+            "upstream_inference_prompt_cost": 0.0002408,
+            "upstream_inference_completions_cost": 7.84e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1128.8703000000169
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "status": "abstain",
+    "context": "[mcp-lifecycle:1:0 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nThe Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization\n\n[mcp-lifecycle:1:11 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\nFor HTTP [transports](/specification/2025-03-26/basic/transports), shutdown is indicated by closing the associated HTTP connection(s).\n\n## Timeouts\n\nImplementations **SHOULD** establish timeouts for all sent requests, to prevent hung connections and resource exhaustion.\n\n[mcp-lifecycle:1:10 | https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx | page 1]\n1. First, closing the input stream to the child process (the server) 2. Waiting for the server to exit, or sending `SIGTERM` if the server does not exit within a reasonable time 3. Sending `SIGKILL` if the server does not exit within a reasonable time after `SIGTERM`\n\nThe server **MAY** initiate shutdown by closing its output stream to the client and exiting.\n\n#### HTTP",
+    "context_ids": [
+      "mcp-lifecycle:1:0",
+      "mcp-lifecycle:1:11",
+      "mcp-lifecycle:1:10"
+    ],
+    "citations": [],
+    "original_retrieval_ms": 88.87499999991633,
+    "original_top3": [
+      {
+        "id": "mcp-lifecycle:1:0",
+        "source_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.03278688524590164,
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "mcp-lifecycle:1:11",
+        "source_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "For HTTP [transports](/specification/2025-03-26/basic/transports), shutdown is indicated by closing the associated HTTP connection(s).\n\n## Timeouts\n\nImplementations **SHOULD** establish timeouts for all sent requests, to prevent hung connections and resource exhaustion.",
+        "metadata": {
+          "end": 4980,
+          "start": 4710,
+          "document_type": "specification"
+        },
+        "score": 0.03200204813108039,
+        "ranks": {
+          "dense": 3,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "mcp-lifecycle:1:10",
+        "source_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "1. First, closing the input stream to the child process (the server) 2. Waiting for the server to exit, or sending `SIGTERM` if the server does not exit within a reasonable time 3. Sending `SIGKILL` if the server does not exit within a reasonable time after `SIGTERM`\n\nThe server **MAY** initiate shutdown by closing its output stream to the client and exiting.\n\n#### HTTP",
+        "metadata": {
+          "end": 4708,
+          "start": 4336,
+          "document_type": "specification"
+        },
+        "score": 0.030798389007344232,
+        "ranks": {
+          "dense": 7,
+          "tfidf": 3
+        }
+      }
+    ],
+    "answer": "INSUFFICIENT_EVIDENCE",
+    "rejected_answer": "INSUFFICIENT_EVIDENCE\n\nThe retrieved portion of the official MCP lifecycle specification mentions shutdown indicated by closing HTTP connections and recommends timeouts for sent requests but does not specify an exact retry interval in seconds after an HTTP connection is dropped.",
+    "elapsed_ms": 2340.105499999936,
+    "usage": {
+      "prompt_tokens": 781,
+      "completion_tokens": 64,
+      "cost": 0.0004148
+    },
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

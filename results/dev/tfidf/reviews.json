@@ -1,0 +1,200 @@
+[
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q01",
+    "reason": "Đoạn trang 5 nêu cả bộ nhớ ngắn hạn và dài hạn.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 5 nêu cả bộ nhớ ngắn hạn và dài hạn."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q02",
+    "reason": "Đoạn trang 6 nêu ba thành phần rules, formats, procedures.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 6 nêu ba thành phần rules, formats, procedures."
+    ]
+  },
+  {
+    "context_grade": 1,
+    "answer_grade": 1,
+    "query_id": "q03",
+    "reason": "Chú thích hình cho tên hai trục, thiếu các nhóm trên mỗi trục theo đáp án chuẩn.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Chú thích hình cho tên hai trục, thiếu các nhóm trên mỗi trục theo đáp án chuẩn."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q04",
+    "reason": "Đoạn trang 9 đối chiếu giao diện chung với tối ưu theo tình huống. Agent có bằng chứng nhưng câu trả lời bị loại do gộp ID trong một cặp ngoặc.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 1,
+    "answer_grade": 1,
+    "query_id": "q05",
+    "reason": "Trang 9 nêu ba loại tài nguyên, thiếu điều kiện local hoặc remote.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Trang 9 nêu ba loại tài nguyên, thiếu điều kiện local hoặc remote."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q06",
+    "reason": "Đoạn trang 11 nêu đúng đường dẫn /.well-known/agents.json.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 11 nêu đúng đường dẫn /.well-known/agents.json."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q07",
+    "reason": "Nguồn nêu chuẩn định danh W3C DID cho ANP.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Nguồn nêu chuẩn định danh W3C DID cho ANP."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q08",
+    "reason": "Đoạn trang 13 nêu đủ HTTP(S), JSON-RPC 2.0 và SSE.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 13 nêu đủ HTTP(S), JSON-RPC 2.0 và SSE."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q09",
+    "reason": "Đoạn trang 13 nêu polling, cập nhật SSE và push notifications. Agent có bằng chứng nhưng câu trả lời bị loại do gộp ID trong một cặp ngoặc.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q10",
+    "reason": "Đoạn trang 15 liệt kê đủ versatility, efficiency và portability.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 15 liệt kê đủ versatility, efficiency và portability."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q11",
+    "reason": "Đoạn trang 20 xác định đơn vị là số thông điệp hoặc tác vụ mỗi giây.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 20 xác định đơn vị là số thông điệp hoặc tác vụ mỗi giây."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q12",
+    "reason": "Đoạn trang 21 nêu đủ mức trường, endpoint và tác vụ.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 21 nêu đủ mức trường, endpoint và tác vụ."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q13",
+    "reason": "Đoạn trang 22 nêu việc bỏ chi phí thiết lập và đóng liên kết lặp lại.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 22 nêu việc bỏ chi phí thiết lập và đóng liên kết lặp lại."
+    ]
+  },
+  {
+    "context_grade": 0,
+    "answer_grade": 0,
+    "query_id": "q14",
+    "reason": "Hai citation chỉ mô tả capability và version negotiation, thiếu quan hệ 1:1.",
+    "citation_support": [
+      false,
+      false
+    ],
+    "citation_reasons": [
+      "Chỉ hỗ trợ chi tiết về capability, không nêu quan hệ 1:1.",
+      "Chỉ hỗ trợ chi tiết thương lượng phiên bản, không nêu quan hệ 1:1."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q15",
+    "reason": "MCP Lifecycle nêu Initialization bắt buộc diễn ra đầu tiên.",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citation_reasons": [
+      "MCP Lifecycle nêu Initialization bắt buộc diễn ra đầu tiên.",
+      "MCP Lifecycle nêu Initialization bắt buộc diễn ra đầu tiên."
+    ]
+  },
+  {
+    "abstention_correct": false,
+    "query_id": "d16",
+    "reason": "Không có số giây mặc định trong tài liệu. Câu được trả về dưới trạng thái answered, thay vì từ chối theo giao thức đã công bố.",
+    "citation_support": [
+      false
+    ],
+    "citation_reasons": [
+      "Hỗ trợ yêu cầu có giới hạn trên, không có bằng chứng về mặc định và không hỗ trợ câu mở đầu nói requires."
+    ]
+  },
+  {
+    "abstention_correct": false,
+    "query_id": "d17",
+    "reason": "Không có trường checksum SHA-256 trong yêu cầu initialize. Câu được trả về dưới trạng thái answered, thay vì từ chối theo giao thức đã công bố.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn Initialization liệt kê các trường của yêu cầu và hỗ trợ giải thích về SHA-256."
+    ]
+  }
+]

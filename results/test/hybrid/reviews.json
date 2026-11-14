@@ -1,0 +1,75 @@
+[
+  {
+    "query_id": "t01",
+    "context_grade": 2,
+    "context_reason": "survey-v3:14:1 nêu dữ liệu chuyến bay, hành khách và thanh toán.",
+    "answer_grade": 2,
+    "reason": "survey-v3:14:1 nêu dữ liệu chuyến bay, hành khách và thanh toán. Câu trả lời nêu đủ các ý được hỏi.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "survey-v3:14:1 nêu dữ liệu chuyến bay, hành khách và thanh toán."
+    ]
+  },
+  {
+    "query_id": "t02",
+    "context_grade": 2,
+    "context_reason": "survey-v3:16:2 định nghĩa đủ tính dễ hiểu của dự đoán/lập luận và tương tác có đạo đức, có trách nhiệm.",
+    "answer_grade": 2,
+    "reason": "survey-v3:16:2 định nghĩa đủ tính dễ hiểu của dự đoán/lập luận và tương tác có đạo đức, có trách nhiệm. Câu trả lời nêu đủ các ý được hỏi.",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citation_reasons": [
+      "survey-v3:16:2 định nghĩa đủ tính dễ hiểu của dự đoán/lập luận và tương tác có đạo đức, có trách nhiệm.",
+      "Hỗ trợ nhận xét bổ sung về tương tác minh bạch, có ngữ cảnh và phù hợp kỳ vọng con người."
+    ]
+  },
+  {
+    "query_id": "t03",
+    "context_grade": 2,
+    "context_reason": "survey-v3:17:2 nêu đầu vào cảm biến không chắc chắn, khả năng quan sát một phần và băng thông hạn chế.",
+    "answer_grade": 0,
+    "reason": "Câu trả lời bị loại vì gộp hai ID trong một cặp ngoặc. Câu nháp nêu đúng ba điều kiện.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "query_id": "t04",
+    "context_grade": 2,
+    "context_reason": "survey-v3:24:2 nêu đúng hai cặp Windows/Chrome và macOS/Safari.",
+    "answer_grade": 0,
+    "reason": "Câu nháp ghép đúng hệ điều hành và trình duyệt nhưng bị loại vì gộp một ID đầy đủ với một ID rút gọn.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "query_id": "t05",
+    "context_grade": 2,
+    "context_reason": "mcp-lifecycle:1:5 nêu cả hai nhánh bắt buộc khi server hỗ trợ và khi không hỗ trợ phiên bản client yêu cầu.",
+    "answer_grade": 2,
+    "reason": "mcp-lifecycle:1:5 nêu cả hai nhánh bắt buộc khi server hỗ trợ và khi không hỗ trợ phiên bản client yêu cầu. Câu trả lời nêu đủ các ý được hỏi.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "mcp-lifecycle:1:5 nêu cả hai nhánh bắt buộc khi server hỗ trợ và khi không hỗ trợ phiên bản client yêu cầu."
+    ]
+  },
+  {
+    "query_id": "t06",
+    "abstention_correct": true,
+    "reason": "Các đoạn về ANP và các tài liệu trong corpus không đưa mức phí thương mại. Agent từ chối và không đưa con số.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "query_id": "t07",
+    "abstention_correct": true,
+    "reason": "Context mô tả đóng kết nối HTTP hoặc quy tắc timeout. Agent từ chối và không đưa khoảng thời gian retry.",
+    "citation_support": [],
+    "citation_reasons": []
+  }
+]

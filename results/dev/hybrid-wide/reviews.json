@@ -1,0 +1,172 @@
+[
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q01",
+    "reason": "Đoạn trang 5 nêu cả bộ nhớ ngắn hạn và dài hạn.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 5 nêu cả bộ nhớ ngắn hạn và dài hạn."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q02",
+    "reason": "Đoạn trang 6 nêu ba thành phần rules, formats, procedures. Agent có bằng chứng nhưng câu trả lời bị loại do gộp ID trong một cặp ngoặc.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q03",
+    "reason": "Context trang 7 đủ các nhóm trên hai trục, câu trả lời bị loại vì gộp ID.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q04",
+    "reason": "Đoạn trang 9 đối chiếu giao diện chung với tối ưu theo tình huống. Agent có bằng chứng nhưng câu trả lời bị loại do gộp ID trong một cặp ngoặc.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q05",
+    "reason": "Đoạn trang 10 nêu dữ liệu, công cụ, dịch vụ và phạm vi local hoặc remote.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 10 nêu dữ liệu, công cụ, dịch vụ và phạm vi local hoặc remote."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q06",
+    "reason": "Đoạn trang 11 nêu đúng đường dẫn /.well-known/agents.json.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 11 nêu đúng đường dẫn /.well-known/agents.json."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q07",
+    "reason": "Nguồn nêu chuẩn định danh W3C DID cho ANP. Agent có bằng chứng nhưng câu trả lời bị loại do gộp ID trong một cặp ngoặc.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q08",
+    "reason": "Đoạn trang 13 nêu đủ HTTP(S), JSON-RPC 2.0 và SSE.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 13 nêu đủ HTTP(S), JSON-RPC 2.0 và SSE."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q09",
+    "reason": "Đoạn trang 13 nêu polling, cập nhật SSE và push notifications. Agent có bằng chứng nhưng câu trả lời bị loại do gộp ID trong một cặp ngoặc.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q10",
+    "reason": "Đoạn trang 15 liệt kê đủ versatility, efficiency và portability. Agent có bằng chứng nhưng câu trả lời bị loại do gộp ID trong một cặp ngoặc.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 0,
+    "query_id": "q11",
+    "reason": "Đoạn trang 20 xác định đơn vị là số thông điệp hoặc tác vụ mỗi giây. Agent có bằng chứng nhưng câu trả lời bị loại do gộp ID trong một cặp ngoặc.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q12",
+    "reason": "Đoạn trang 21 nêu đủ mức trường, endpoint và tác vụ.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 21 nêu đủ mức trường, endpoint và tác vụ."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q13",
+    "reason": "Đoạn trang 22 nêu việc bỏ chi phí thiết lập và đóng liên kết lặp lại.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "Đoạn trang 22 nêu việc bỏ chi phí thiết lập và đóng liên kết lặp lại."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q14",
+    "reason": "MCP Architecture nêu rõ một client ứng với một server cụ thể.",
+    "citation_support": [
+      true
+    ],
+    "citation_reasons": [
+      "MCP Architecture nêu rõ một client ứng với một server cụ thể."
+    ]
+  },
+  {
+    "context_grade": 2,
+    "answer_grade": 2,
+    "query_id": "q15",
+    "reason": "MCP Lifecycle nêu Initialization bắt buộc diễn ra đầu tiên.",
+    "citation_support": [
+      false,
+      true,
+      true
+    ],
+    "citation_reasons": [
+      "Liệt kê thứ tự các pha; không xác nhận yêu cầu MUST be first.",
+      "MCP Lifecycle nêu Initialization bắt buộc diễn ra đầu tiên.",
+      "MCP Lifecycle nêu Initialization bắt buộc diễn ra đầu tiên."
+    ]
+  },
+  {
+    "abstention_correct": true,
+    "query_id": "d16",
+    "reason": "Không có số giây mặc định trong tài liệu. Câu trả về từ chối và không đưa giá trị suy đoán.",
+    "citation_support": [],
+    "citation_reasons": []
+  },
+  {
+    "abstention_correct": true,
+    "query_id": "d17",
+    "reason": "Không có trường checksum SHA-256 trong yêu cầu initialize. Câu trả về từ chối và không đưa giá trị suy đoán.",
+    "citation_support": [],
+    "citation_reasons": []
+  }
+]

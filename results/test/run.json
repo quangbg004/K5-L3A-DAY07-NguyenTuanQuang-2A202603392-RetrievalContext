@@ -1,0 +1,46 @@
+{
+  "signature": {
+    "benchmark_sha256": "8720ce1d6497d712e0111373f0301cc9e460ec5f98a47dfb82ddebef6decbec8",
+    "model": "openai/gpt-4.1-mini",
+    "configs": {
+      "dense": {
+        "method": "dense",
+        "top_k": 3,
+        "budget": 2000,
+        "searches": 1
+      },
+      "tfidf": {
+        "method": "tfidf",
+        "top_k": 3,
+        "budget": 2000,
+        "searches": 1
+      },
+      "hybrid": {
+        "method": "hybrid",
+        "top_k": 3,
+        "budget": 2000,
+        "searches": 1
+      },
+      "hybrid-wide": {
+        "method": "hybrid",
+        "top_k": 6,
+        "budget": 3600,
+        "searches": 2
+      }
+    },
+    "rule": "Highest fraction of fully grounded dev answers, then correct abstention, exact Context Evidence Rate, Evidence Hit@3, lowest API cost, then config order."
+  },
+  "index": {
+    "strategy": "B",
+    "embedding": "BAAI/bge-small-en-v1.5",
+    "dimensions": 384,
+    "database": {
+      "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+      "pgvector": "0.8.7"
+    },
+    "chunks": 297,
+    "embedding_fingerprint": "751be37f53a8ad1dd860e7b21f4345ed",
+    "corpus_sha256": "e79383db3da5467c781cb26c6427f46c36315200ab33ceb502b2aada4fc86b40",
+    "setup_seconds": 1.4045661999998629
+  }
+}
